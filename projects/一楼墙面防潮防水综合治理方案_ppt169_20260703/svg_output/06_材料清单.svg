@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="headerBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D4F8B"/>
+      <stop offset="100%" stop-color="#0891B2"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="5" fill="url(#headerBar)"/>
+  <!-- Title -->
+  <text x="60" y="55" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="32" font-weight="bold" fill="#0D4F8B">材料清单与用量详表</text>
+  <text x="60" y="80" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">按 100m² 墙面计算 · 京东/天猫品牌旗舰店搜索对应关键词即可购买</text>
+
+  <!-- Table container -->
+  <g id="tableArea" transform="translate(60, 105)">
+    <!-- Table border -->
+    <rect x="0" y="0" width="1160" height="520" fill="none" stroke="#D0D8E0" stroke-width="1.5"/>
+    <!-- Header row -->
+    <rect x="0" y="0" width="1160" height="44" fill="#0D4F8B"/>
+    <!-- Column headers -->
+    <text x="15" y="28" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">材料名称</text>
+    <text x="225" y="28" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">用量 (100m²)</text>
+    <text x="380" y="28" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">用法要诀</text>
+    <text x="820" y="28" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">参考品牌</text>
+    <text x="1000" y="28" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">京东搜关键词</text>
+    <!-- Vertical dividers -->
+    <line x1="200" y1="0" x2="200" y2="520" stroke="#D0D8E0" stroke-width="0.5"/>
+    <line x1="350" y1="0" x2="350" y2="520" stroke="#D0D8E0" stroke-width="0.5"/>
+    <line x1="790" y1="0" x2="790" y2="520" stroke="#D0D8E0" stroke-width="0.5"/>
+    <line x1="980" y1="0" x2="980" y2="520" stroke="#D0D8E0" stroke-width="0.5"/>
+
+    <!-- Row 1: 84消毒液 -->
+    <line x1="0" y1="44" x2="1160" y2="44" stroke="#E2E8F0" stroke-width="0.5"/>
+    <text x="15" y="68" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">84消毒液</text>
+    <text x="225" y="68" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">2-3瓶 (500ml/瓶)</text>
+    <text x="380" y="68" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">1:10兑水，湿敷霉变区域10-15分钟后清水擦净</text>
+    <text x="820" y="68" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">蓝月亮 / 滴露</text>
+    <text x="1000" y="68" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" fill="#0891B2">84消毒液 家庭装</text>
+
+    <!-- Row 2: 防水型墙固 -->
+    <rect x="0" y="80" width="1160" height="56" fill="#F0F4F8"/>
+    <line x1="0" y1="80" x2="1160" y2="80" stroke="#E2E8F0" stroke-width="0.5"/>
+    <text x="15" y="104" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">防水型墙固（渗透界面剂）</text>
+    <text x="225" y="104" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">10-15kg</text>
+    <text x="380" y="104" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">开桶即用，辊涂1遍，覆盖率8-10m²/kg，封闭毛细孔</text>
+    <text x="820" y="104" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">东方雨虹 / 德高 / 立邦</text>
+    <text x="1000" y="104" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" fill="#0891B2">东方雨虹 墙固 界面剂</text>
+
+    <!-- Row 3: 渗透结晶防水 -->
+    <line x1="0" y1="136" x2="1160" y2="136" stroke="#E2E8F0" stroke-width="0.5"/>
+    <text x="15" y="160" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">水泥基渗透结晶防水涂料</text>
+    <text x="225" y="160" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">35-50kg（2遍）</text>
+    <text x="380" y="160" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">粉:水≈1:0.3搅拌，横竖交叉2遍，厚度≥1.5mm，养护48h</text>
+    <text x="820" y="160" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">东方雨虹 / 德高K11 / 青龙</text>
+    <text x="1000" y="160" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" fill="#0891B2">德高K11通用型</text>
+
+    <!-- Row 4: N型耐水腻子 -->
+    <rect x="0" y="172" width="1160" height="56" fill="#F0F4F8"/>
+    <line x1="0" y1="172" x2="1160" y2="172" stroke="#E2E8F0" stroke-width="0.5"/>
+    <text x="15" y="196" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">N型水泥基耐水腻子</text>
+    <text x="225" y="196" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">80-100kg（2遍）</text>
+    <text x="380" y="196" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">粉:水≈1:0.35搅拌，批刮2遍，每遍1-2mm，间隔≥24h</text>
+    <text x="820" y="196" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">德高 / 美巢 / 立邦</text>
+    <text x="1000" y="196" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" fill="#0891B2">美巢 易呱平800JJ</text>
+
+    <!-- Row 5: 抗碱底漆 -->
+    <line x1="0" y1="228" x2="1160" y2="228" stroke="#E2E8F0" stroke-width="0.5"/>
+    <text x="15" y="252" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">抗碱防潮底漆</text>
+    <text x="225" y="252" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">5-8kg（1遍）</text>
+    <text x="380" y="252" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">开桶搅匀，辊涂1遍，覆盖率10-12m²/kg</text>
+    <text x="820" y="252" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">多乐士 / 立邦 / 三棵树</text>
+    <text x="1000" y="252" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" fill="#0891B2">多乐士 抗碱底漆</text>
+
+    <!-- Row 6: 防霉乳胶漆 -->
+    <rect x="0" y="264" width="1160" height="56" fill="#F0F4F8"/>
+    <line x1="0" y1="264" x2="1160" y2="264" stroke="#E2E8F0" stroke-width="0.5"/>
+    <text x="15" y="288" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">防霉乳胶漆</text>
+    <text x="225" y="288" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">15-20kg（2遍）</text>
+    <text x="380" y="288" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">开桶搅匀，辊涂2遍，间隔2-4h，覆盖率6-8m²/kg/遍</text>
+    <text x="820" y="288" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">多乐士超净界 / 立邦 / 三棵树</text>
+    <text x="1000" y="288" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" fill="#0891B2">多乐士 防霉乳胶漆</text>
+
+    <!-- Row 7: 丙烯酸弹性防水涂料 (外墙) -->
+    <line x1="0" y1="320" x2="1160" y2="320" stroke="#E2E8F0" stroke-width="0.5"/>
+    <text x="15" y="344" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">丙烯酸弹性防水涂料（外墙）</text>
+    <text x="225" y="344" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">25-40kg（2遍）</text>
+    <text x="380" y="344" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">开桶搅匀，辊涂2遍，间隔4-6h，覆盖率3-5m²/kg/遍</text>
+    <text x="820" y="344" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">东方雨虹 / 科顺 / 西卡</text>
+    <text x="1000" y="344" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" fill="#0891B2">东方雨虹 HCA121</text>
+
+    <!-- Row 8: 外墙透明防水胶 -->
+    <rect x="0" y="356" width="1160" height="56" fill="#F0F4F8"/>
+    <line x1="0" y1="356" x2="1160" y2="356" stroke="#E2E8F0" stroke-width="0.5"/>
+    <text x="15" y="380" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">外墙防水透明胶（替代方案）</text>
+    <text x="225" y="380" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">10-15kg（2遍）</text>
+    <text x="380" y="380" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">喷涂或辊涂2遍，覆盖率8-10m²/kg，透明不改变外观</text>
+    <text x="820" y="380" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">东方雨虹 / 德高</text>
+    <text x="1000" y="380" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" fill="#0891B2">东方雨虹 HCA123</text>
+
+    <!-- Total row -->
+    <rect x="0" y="412" width="1160" height="44" fill="#EFF6FF"/>
+    <line x1="0" y1="412" x2="1160" y2="412" stroke="#0D4F8B" stroke-width="1.5"/>
+    <text x="15" y="440" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#0D4F8B">材料费总计</text>
+    <text x="225" y="440" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#E8612C">约 2,500 - 4,000 元</text>
+    <text x="380" y="440" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">以上为材料费估算，人工费另计（约材料费的1-1.5倍）</text>
+    <text x="820" y="440" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#0D4F8B">建议京东/天猫品牌旗舰店购买</text>
+    <text x="1000" y="440" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" fill="#5B6E7D">认准官方旗舰店</text>
+  </g>
+
+  <!-- Annotation -->
+  <text x="60" y="655" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" fill="#5B6E7D">* 用量为经验估算值，实际用量因墙面状况、施工手法等有所差异。所有材料均可通过京东搜索对应关键词找到品牌官方旗舰店。</text>
+  <text x="60" y="675" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" fill="#5B6E7D">* 施工顺序：方案二（外墙）优先 → 方案一（内墙）跟进。每道工序必须完全干透再进行下一步。</text>
+  <!-- Page number -->
+  <text x="1220" y="695" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">6 / 10</text>
+</svg>

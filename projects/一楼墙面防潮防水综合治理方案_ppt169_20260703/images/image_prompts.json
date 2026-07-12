@@ -1,0 +1,22 @@
+{
+  "rendering": "vector-illustration",
+  "palette": "cool-corporate",
+  "items": [
+    {
+      "id": "cover_bg",
+      "filename": "cover_bg.png",
+      "prompt": "Professional waterproofing construction scene with clean composition; worker applying coating on exterior wall with roller; calm sky-blue and white tones; central area kept quiet for title overlay",
+      "dimensions": [1280, 720],
+      "text_policy": "none",
+      "page_role": "hero_page"
+    },
+    {
+      "id": "wall_layers",
+      "filename": "wall_layers.png",
+      "reference": "Cross-section diagram of a wall showing multiple waterproofing layers from base to surface; clean architectural style; layers clearly differentiated by subtle color variations; labels to be overlaid as SVG text",
+      "dimensions": [1280, 720],
+      "text_policy": "none",
+      "page_role": "local"
+    }
+  ]
+}

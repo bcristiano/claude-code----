@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D4F8B" />
+      <stop offset="50%" stop-color="#07355E" />
+      <stop offset="100%" stop-color="#0D4F8B" />
+    </linearGradient>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E8612C" />
+      <stop offset="100%" stop-color="#F0854D" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#0891B2" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#07355E" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="bottomBar" x1="0%" y1="0%" x2="0%" y2="1%">
+      <stop offset="0%" stop-color="#0D4F8B" stop-opacity="0" />
+      <stop offset="100%" stop-color="#041E33" stop-opacity="0.85" />
+    </linearGradient>
+    <filter id="titleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.15" />
+      <feComposite in2="SourceAlpha" operator="in" />
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="1280" height="720" fill="url(#bgGrad)" />
+  <rect width="1280" height="720" fill="url(#glow)" />
+  
+  <line x1="0" y1="420" x2="1280" y2="320" stroke="#0891B2" stroke-width="1" stroke-opacity="0.25" />
+  <line x1="0" y1="440" x2="1280" y2="340" stroke="#E8612C" stroke-width="1" stroke-opacity="0.15" />
+  
+  <rect x="0" y="440" width="1280" height="280" fill="url(#bottomBar)" />
+  
+  <path fill="url(#heroGrad)" transform="translate(-40, 0)" d="M642.50,282 H717.50 A2.50,2.50 0 0 1 720,284.50 V284.50 A2.50,2.50 0 0 1 717.50,287 H642.50 A2.50,2.50 0 0 1 640,284.50 V284.50 A2.50,2.50 0 0 1 642.50,282 Z" />
+  
+  <text x="640" y="250" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="60" font-weight="bold" fill="#FFFFFF" filter="url(#titleGlow)">一楼墙面防潮防水综合治理方案</text>
+  
+  <text x="640" y="310" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" fill="#FFFFFF" fill-opacity="0.8">内外兼治 · 一步到位 · 告别返潮发霉</text>
+  
+  <text x="640" y="540" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.7">2026年7月 · 家庭装修实用指南</text>
+  
+  <circle cx="200" cy="180" r="3" fill="#0891B2" fill-opacity="0.3" />
+  <circle cx="1080" cy="150" r="4" fill="#E8612C" fill-opacity="0.2" />
+  <circle cx="150" cy="500" r="2" fill="#FFFFFF" fill-opacity="0.1" />
+  <circle cx="1150" cy="550" r="3" fill="#0891B2" fill-opacity="0.15" />
+  
+  <text x="640" y="695" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#FFFFFF" fill-opacity="0.35">1 / 10</text>
+</svg>

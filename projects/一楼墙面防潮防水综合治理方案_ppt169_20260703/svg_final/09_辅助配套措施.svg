@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="headerBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D4F8B" />
+      <stop offset="100%" stop-color="#0891B2" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect x="0" y="0" width="1280" height="5" fill="url(#headerBar)" />
+  <text x="60" y="58" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="32" font-weight="bold" fill="#0D4F8B">辅助配套措施 + 避坑清单</text>
+  <text x="60" y="86" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">防水工程是基础，日常习惯是关键 — 双管齐下才能真正告别返潮</text>
+
+  
+  <text x="350" y="125" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="20" font-weight="bold" fill="#0D4F8B">日常辅助措施</text>
+  <line x1="190" y1="138" x2="510" y2="138" stroke="#D0D8E0" stroke-width="1" />
+
+  
+  <path fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1" d="M70,155 H270 A10,10 0 0 1 280,165 V345 A10,10 0 0 1 270,355 H70 A10,10 0 0 1 60,345 V165 A10,10 0 0 1 70,155 Z" />
+  
+  <g transform="translate(150.0, 185.0) scale(2.5)" fill="#0891B2">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 0L2.94499 6.48801C2.32745 7.47609 2 8.61782 2 9.78301V10C2 13.3137 4.68629 16 8 16C11.3137 16 14 13.3137 14 10V9.78301C14 8.61782 13.6726 7.47609 13.055 6.48801L9 0H7ZM10 10C10 11.1046 9.10457 12 8 12V14C10.2091 14 12 12.2091 12 10H10Z" />
+  </g>
+  <text x="170" y="248" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="17" font-weight="bold" fill="#1A1A2E">除湿机</text>
+  <text x="170" y="274" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">湿度 &gt; 65% 时开启</text>
+  <text x="170" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">南方一楼必备</text>
+  <text x="170" y="318" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">几百元解决问题</text>
+
+  
+  <path fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1" d="M320,155 H520 A10,10 0 0 1 530,165 V345 A10,10 0 0 1 520,355 H320 A10,10 0 0 1 310,345 V165 A10,10 0 0 1 320,155 Z" />
+  
+  <g transform="translate(400.0, 185.0) scale(2.5)" fill="#0D4F8B">
+    <path d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z" />
+  </g>
+  <text x="420" y="248" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="17" font-weight="bold" fill="#1A1A2E">正确通风</text>
+  <text x="420" y="274" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">晴天中午大通风</text>
+  <text x="420" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#E8612C" font-weight="bold">阴雨天紧闭门窗</text>
+  <text x="420" y="318" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">很多人做反了！</text>
+
+  
+  <path fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1" d="M570,155 H770 A10,10 0 0 1 780,165 V345 A10,10 0 0 1 770,355 H570 A10,10 0 0 1 560,345 V165 A10,10 0 0 1 570,155 Z" />
+  
+  <g transform="translate(650.0, 185.0) scale(2.5)" fill="#0D8C5E">
+    <path d="M1 5V3L8 0L15 3V5L8 8L1 5Z" />
+    <path d="M8 16L1 13V11L8 14L15 11V13L8 16Z" />
+    <path d="M1 9L8 12L15 9V7L8 10L1 7V9Z" />
+  </g>
+  <text x="670" y="248" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="17" font-weight="bold" fill="#1A1A2E">家具离墙</text>
+  <text x="670" y="274" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">离墙 5-10cm</text>
+  <text x="670" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">留出通风间隙</text>
+  <text x="670" y="318" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">一楼优选玻化砖</text>
+
+  
+  <path fill="#F0F4F8" stroke="#D0D8E0" stroke-width="1" d="M72,375 H1208 A12,12 0 0 1 1220,387 V673 A12,12 0 0 1 1208,685 H72 A12,12 0 0 1 60,673 V387 A12,12 0 0 1 72,375 Z" />
+  <text x="640" y="408" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="20" font-weight="bold" fill="#E8612C">常见错误 &amp; 正确做法</text>
+
+  
+  <path fill="#FFFFFF" d="M98,430 H622 A8,8 0 0 1 630,438 V464 A8,8 0 0 1 622,472 H98 A8,8 0 0 1 90,464 V438 A8,8 0 0 1 98,430 Z" />
+  <text x="110" y="448" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" fill="#E8612C" font-weight="bold">✕</text>
+  <text x="132" y="448" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">返潮墙面直接刷漆覆盖</text>
+  <text x="430" y="448" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#0D8C5E">✓ 铲除→杀菌→防水→再刷</text>
+
+  <path fill="#FFFFFF" d="M668,430 H1192 A8,8 0 0 1 1200,438 V464 A8,8 0 0 1 1192,472 H668 A8,8 0 0 1 660,464 V438 A8,8 0 0 1 668,430 Z" />
+  <text x="680" y="448" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" fill="#E8612C" font-weight="bold">✕</text>
+  <text x="702" y="448" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">用普通石膏基腻子</text>
+  <text x="1000" y="448" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#0D8C5E">✓ 必须N型水泥基耐水腻子</text>
+
+  <path fill="#FFFFFF" d="M98,482 H622 A8,8 0 0 1 630,490 V516 A8,8 0 0 1 622,524 H98 A8,8 0 0 1 90,516 V490 A8,8 0 0 1 98,482 Z" />
+  <text x="110" y="500" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" fill="#E8612C" font-weight="bold">✕</text>
+  <text x="132" y="500" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">只刷表面防水涂料</text>
+  <text x="430" y="500" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#0D8C5E">✓ 必须先做渗透型防水处理</text>
+
+  <path fill="#FFFFFF" d="M668,482 H1192 A8,8 0 0 1 1200,490 V516 A8,8 0 0 1 1192,524 H668 A8,8 0 0 1 660,516 V490 A8,8 0 0 1 668,482 Z" />
+  <text x="680" y="500" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" fill="#E8612C" font-weight="bold">✕</text>
+  <text x="702" y="500" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">回南天/阴雨天开窗通风</text>
+  <text x="1000" y="500" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#0D8C5E">✓ 紧闭门窗 + 开除湿机</text>
+
+  <path fill="#FFFFFF" d="M98,534 H622 A8,8 0 0 1 630,542 V568 A8,8 0 0 1 622,576 H98 A8,8 0 0 1 90,568 V542 A8,8 0 0 1 98,534 Z" />
+  <text x="110" y="552" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" fill="#E8612C" font-weight="bold">✕</text>
+  <text x="132" y="552" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">不处理外墙只做内墙</text>
+  <text x="430" y="552" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#0D8C5E">✓ 外墙优先 → 内墙配合</text>
+
+  <path fill="#FFFFFF" d="M668,534 H1192 A8,8 0 0 1 1200,542 V568 A8,8 0 0 1 1192,576 H668 A8,8 0 0 1 660,568 V542 A8,8 0 0 1 668,534 Z" />
+  <text x="680" y="552" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" fill="#E8612C" font-weight="bold">✕</text>
+  <text x="702" y="552" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">相信"纳米防水喷雾"能解决结构渗水</text>
+  <text x="1000" y="552" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#0D8C5E">✓ 系统工程才能治本</text>
+
+  
+  <path fill="#FFFFFF" stroke="#D0D8E0" stroke-width="0.5" d="M98,590 H1182 A8,8 0 0 1 1190,598 V654 A8,8 0 0 1 1182,662 H98 A8,8 0 0 1 90,654 V598 A8,8 0 0 1 98,590 Z" />
+  
+  <g transform="translate(115.0, 618.0) scale(1.5)" fill="#0891B2">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8ZM7 8H6V6H9V11H10V13H7V8ZM9 5V3H7V5H9Z" />
+  </g>
+  <text x="150" y="617" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">一楼地面材料推荐：</text>
+  <text x="150" y="640" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">首选玻化砖/通体砖（吸水率极低） / SPC石塑地板（防水防潮，脚感优于瓷砖） / 不推荐实木地板（极易吸潮变形发霉）</text>
+
+  <text x="1220" y="695" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">9 / 10</text>
+</svg>

@@ -8,10 +8,10 @@
 /* ================================================================
    🔧 个性化设置区域 - 在这里修改密码和生日！
    ================================================================
-   PASSWORD: 页面解锁密码（改成你们的纪念日/她的生日等有意义的数字）
-   BIRTHDAY_MONTH: 生日月份 (0=1月, 6=7月)
-   BIRTHDAY_DAY: 生日日期
-   GIRLFRIEND_NAME: 她的名字/昵称
+   PASSWORD: 1210（改成你们的纪念日/她的生日等有意义的数字）
+   BIRTHDAY_MONTH: 7月 (0=1月, 6=7月)
+   BIRTHDAY_DAY: 16日
+   GIRLFRIEND_NAME: 呆头鹅
    ================================================================ */
 
 /* ============ Reset & Base ============ */
@@ -254,86 +254,191 @@ section {
 }
 .birthday-today .sub-text { color:#D4A5A5; font-size:1.2rem; letter-spacing:3px; }
 
-/* ============ Photo Gallery ============ */
-#gallery { gap:32px; }
-.gallery-title {
+/* ============ Memory Screens - Full Viewport Per Memory ============ */
+#gallery {
+  position:relative; z-index:1;
+}
+#gallery > .gallery-title {
   font-size:clamp(1.2rem, 4vw, 1.8rem);
-  color:#D4A5A5; letter-spacing:4px;
+  color:#D4A5A5; letter-spacing:4px; text-align:center;
+  padding:48px 24px 0; margin:0;
 }
-.gallery-container {
-  position:relative; width:100%; max-width:500px;
-  overflow:hidden; border-radius:20px;
-  box-shadow:0 20px 60px rgba(0,0,0,0.4);
-  aspect-ratio:4/5;
+#gallery > .gallery-subtitle {
+  color:rgba(212,165,165,0.4); font-size:0.8rem; letter-spacing:2px; text-align:center;
+  padding:8px 24px 32px; margin:0;
 }
-.gallery-track { display:flex; height:100%; transition:transform 0.5s cubic-bezier(0.25,0.1,0.25,1); }
-.gallery-slide { min-width:100%; height:100%; position:relative; overflow:hidden; }
-.gallery-slide img, .gallery-slide video {
-  width:100%; height:100%; object-fit:cover; display:block;
+.memory-screen {
+  position:relative; min-height:100vh; display:flex; align-items:stretch;
+  background:linear-gradient(180deg, rgba(20,15,28,0.95) 0%, rgba(13,13,26,0.98) 100%);
+  overflow:hidden;
 }
-.gallery-slide .placeholder-img {
-  width:100%; height:100%; display:flex; flex-direction:column;
-  align-items:center; justify-content:center; font-size:6rem;
-}
-.gallery-slide:nth-child(1) .placeholder-img { background:linear-gradient(135deg, #2d1b2e, #4a2c3d); }
-.gallery-slide:nth-child(2) .placeholder-img { background:linear-gradient(135deg, #1b2e2d, #2c4a3d); }
-.gallery-slide:nth-child(3) .placeholder-img { background:linear-gradient(135deg, #2e1b1b, #4a2c3d); }
-.gallery-slide:nth-child(4) .placeholder-img { background:linear-gradient(135deg, #1b1b2e, #2c3d4a); }
-.gallery-slide:nth-child(5) .placeholder-img { background:linear-gradient(135deg, #2e2d1b, #4a3d2c); }
-.gallery-slide .slide-caption {
-  position:absolute; bottom:0; left:0; right:0;
-  padding:20px; text-align:center;
-  background:linear-gradient(transparent, rgba(0,0,0,0.75));
-  color:#D4A5A5; font-size:0.9rem; letter-spacing:2px;
-}
-.gallery-slide .photo-placeholder-text {
-  color:rgba(255,255,255,0.6); font-size:0.9rem;
-  letter-spacing:1px; text-align:center; padding:20px;
-}
-.gallery-nav { display:flex; gap:12px; align-items:center; }
-.gallery-btn {
-  width:44px; height:44px; border-radius:50%;
-  background:rgba(212,165,165,0.15); border:1px solid rgba(212,165,165,0.3);
-  color:#D4A5A5; font-size:1.2rem; cursor:pointer;
-  display:flex; align-items:center; justify-content:center;
-  transition:all 0.3s;
-}
-.gallery-btn:hover { background:rgba(212,165,165,0.3); }
-.gallery-dots { display:flex; gap:8px; }
-.gallery-dot {
-  width:8px; height:8px; border-radius:50%;
-  background:rgba(212,165,165,0.3); cursor:pointer;
-  transition:all 0.3s;
-}
-.gallery-dot.active { background:#E84A5F; width:24px; border-radius:4px; }
+/* Variety backgrounds per screen */
+.memory-screen:nth-child(1) { background:linear-gradient(180deg, rgba(30,18,33,0.95) 0%, rgba(13,13,26,0.98) 100%); }
+.memory-screen:nth-child(2) { background:linear-gradient(180deg, rgba(18,28,33,0.95) 0%, rgba(13,13,26,0.98) 100%); }
+.memory-screen:nth-child(3) { background:linear-gradient(180deg, rgba(33,18,18,0.95) 0%, rgba(13,13,26,0.98) 100%); }
+.memory-screen:nth-child(4) { background:linear-gradient(180deg, rgba(18,20,33,0.95) 0%, rgba(13,13,26,0.98) 100%); }
+.memory-screen:nth-child(5) { background:linear-gradient(180deg, rgba(28,18,30,0.95) 0%, rgba(13,13,26,0.98) 100%); }
+.memory-screen:nth-child(6) { background:linear-gradient(180deg, rgba(18,30,28,0.95) 0%, rgba(13,13,26,0.98) 100%); }
+.memory-screen:nth-child(7) { background:linear-gradient(180deg, rgba(30,28,18,0.95) 0%, rgba(13,13,26,0.98) 100%); }
 
-/* ============ Video Section ============ */
-#video-section { gap:32px; }
-.video-title {
-  font-size:clamp(1.2rem, 4vw, 1.8rem);
-  color:#D4A5A5; letter-spacing:4px;
+.memory-photo {
+  flex:0 0 52%; position:relative; overflow:hidden;
+  display:flex; align-items:center; justify-content:center;
 }
-.video-container {
-  width:100%; max-width:500px; border-radius:20px;
-  overflow:hidden; box-shadow:0 20px 60px rgba(0,0,0,0.4);
-  border:1.5px solid rgba(212,165,165,0.2);
-  aspect-ratio:16/9; background:#1a1a2e;
+.memory-photo img {
+  width:100%; height:100%; object-fit:cover; position:absolute; inset:0;
 }
-.video-container video {
+.memory-photo .placeholder-emoji {
+  font-size:clamp(4rem, 10vw, 8rem); z-index:1;
+  filter:drop-shadow(0 8px 24px rgba(0,0,0,0.4));
+}
+.memory-photo .placeholder-text {
+  position:absolute; bottom:16px; left:0; right:0; text-align:center;
+  color:rgba(255,255,255,0.4); font-size:0.75rem; letter-spacing:1px; z-index:1;
+}
+.memory-text {
+  flex:1; padding:clamp(32px, 6vw, 56px);
+  display:flex; flex-direction:column; justify-content:center; gap:12px;
+}
+.memory-text .memory-number {
+  font-size:clamp(3rem, 6vw, 5rem); font-weight:bold;
+  color:rgba(232,74,95,0.12); line-height:1;
+  position:absolute; top:20px; right:24px; pointer-events:none;
+}
+.memory-text .memory-date {
+  font-size:0.8rem; color:#C9A96E; letter-spacing:3px; text-transform:uppercase;
+}
+.memory-text .memory-title {
+  font-size:clamp(1.3rem, 3.5vw, 1.8rem);
+  color:#E84A5F; font-weight:bold; letter-spacing:1px; line-height:1.3;
+}
+.memory-text .memory-story {
+  font-size:clamp(0.9rem, 1.8vw, 1.05rem);
+  color:rgba(240,230,230,0.8); line-height:1.9; letter-spacing:0.5px;
+  max-width:480px;
+}
+.memory-text .memory-emoji {
+  font-size:2rem; margin-top:8px;
+}
+
+/* Alternating layout: even screens photo on right */
+.memory-screen:nth-child(even) .memory-photo { order:2; }
+.memory-screen:nth-child(even) .memory-text { order:1; text-align:right; }
+.memory-screen:nth-child(even) .memory-text .memory-date { text-align:right; }
+.memory-screen:nth-child(even) .memory-text .memory-title { text-align:right; }
+.memory-screen:nth-child(even) .memory-text .memory-story { text-align:right; margin-left:auto; }
+.memory-screen:nth-child(even) .memory-text .memory-number { right:auto; left:24px; }
+
+/* Scroll hint at bottom of last screen before gallery */
+.memory-scroll-hint {
+  position:absolute; bottom:40px; left:0; right:0; text-align:center;
+  color:rgba(212,165,165,0.35); font-size:0.75rem; letter-spacing:2px;
+  animation:fadeInOut 2s ease-in-out infinite; pointer-events:none;
+}
+@keyframes fadeInOut { 0%,100% { opacity:0.3; } 50% { opacity:0.8; } }
+
+@media (max-width:768px) {
+  .memory-screen {
+    flex-direction:column !important;
+  }
+  .memory-screen:nth-child(even) .memory-photo { order:-1; }
+  .memory-screen:nth-child(even) .memory-text { order:0; text-align:left; }
+  .memory-screen:nth-child(even) .memory-text .memory-date,
+  .memory-screen:nth-child(even) .memory-text .memory-title,
+  .memory-screen:nth-child(even) .memory-text .memory-story { text-align:left; margin-left:0; }
+  .memory-photo { flex:0 0 auto; height:50vh; }
+  .memory-text { padding:24px 20px 40px; }
+  .memory-text .memory-number { top:12px; right:16px; font-size:2.5rem; }
+  .memory-screen:nth-child(even) .memory-text .memory-number { left:16px; right:auto; }
+}
+
+/* ============ Auto Slideshow ============ */
+#slideshow {
+  position:relative; z-index:1; min-height:100vh;
+  background:#0d0d1a; overflow:hidden;
+  display:flex; align-items:center; justify-content:center;
+}
+.slideshow-track {
+  position:absolute; inset:0;
+}
+.slideshow-slide {
+  position:absolute; inset:0;
+  opacity:0; transition:opacity 1.2s ease-in-out;
+}
+.slideshow-slide.active { opacity:1; }
+.slideshow-slide img {
   width:100%; height:100%; object-fit:cover; display:block;
 }
-.video-container .video-placeholder {
-  width:100%; height:100%; display:flex; flex-direction:column;
-  align-items:center; justify-content:center;
-  background:linear-gradient(135deg, #1a1a2e, #2a1a2e);
-  color:rgba(212,165,165,0.6); font-size:3rem; gap:12px;
+.slideshow-overlay {
+  position:relative; z-index:2; text-align:center; pointer-events:none;
+  padding:40px 24px;
 }
-.video-container .video-placeholder span {
-  font-size:0.85rem; letter-spacing:2px;
+.slideshow-overlay .slideshow-title {
+  font-size:clamp(1.6rem, 5vw, 2.8rem);
+  background:linear-gradient(135deg, #E84A5F, #D4A5A5, #C9A96E);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  background-clip:text;
+  letter-spacing:8px; font-weight:bold;
+  text-shadow:none;
+  margin-bottom:8px;
 }
-.video-hint {
-  color:rgba(212,165,165,0.35); font-size:0.7rem;
-  letter-spacing:2px; text-align:center; max-width:400px;
+.slideshow-overlay .slideshow-sub {
+  font-size:0.85rem; color:rgba(212,165,165,0.5); letter-spacing:4px;
+}
+.slideshow-dots {
+  position:absolute; bottom:36px; left:0; right:0;
+  display:flex; gap:8px; justify-content:center; z-index:3;
+}
+.slideshow-dot {
+  width:7px; height:7px; border-radius:50%;
+  background:rgba(255,255,255,0.25); cursor:pointer;
+  transition:all 0.5s;
+}
+.slideshow-dot.active { background:#E84A5F; width:20px; border-radius:4px; }
+
+/* ============ Video Screens - Full Viewport Per Video ============ */
+.video-screen {
+  position:relative; z-index:1; min-height:100vh;
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  padding:clamp(40px, 8vh, 80px) clamp(16px, 4vw, 40px);
+  background:linear-gradient(180deg, rgba(15,13,22,0.95) 0%, rgba(13,13,26,0.98) 100%);
+  gap:clamp(20px, 4vh, 36px);
+}
+.video-screen:nth-child(2) {
+  background:linear-gradient(180deg, rgba(22,15,20,0.95) 0%, rgba(13,13,26,0.98) 100%);
+}
+.video-screen .video-header {
+  display:flex; flex-direction:column; align-items:center; gap:6px;
+}
+.video-screen .video-title {
+  font-size:clamp(1.2rem, 4vw, 1.6rem);
+  background:linear-gradient(135deg, #E84A5F, #D4A5A5);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  background-clip:text;
+  letter-spacing:4px; text-align:center; font-weight:bold; margin:0;
+}
+.video-screen .video-subtitle {
+  color:rgba(212,165,165,0.5); font-size:0.8rem;
+  letter-spacing:3px; text-align:center; margin:0;
+}
+.video-player-wrap {
+  width:100%; max-width:clamp(600px, 85vw, 960px);
+  border-radius:16px; overflow:hidden;
+  box-shadow:0 24px 72px rgba(0,0,0,0.5), 0 0 0 1.5px rgba(212,165,165,0.15);
+  background:#000;
+}
+.video-player-wrap video {
+  width:100%; display:block; border-radius:16px;
+}
+.video-screen .video-note {
+  color:rgba(212,165,165,0.35); font-size:0.75rem;
+  letter-spacing:2px; text-align:center; max-width:600px;
+}
+
+@media (max-width:640px) {
+  .video-screen { padding:32px 12px; gap:16px; }
+  .video-player-wrap { border-radius:10px; }
+  .video-player-wrap video { border-radius:10px; }
 }
 
 /* ============ Love Letter ============ */
@@ -358,35 +463,9 @@ section {
 .letter-content .highlight { color:#E84A5F; font-weight:bold; }
 .letter-signature { text-align:right; color:#C9A96E; margin-top:20px; font-style:italic; }
 
-/* ============ Interactive ============ */
-#interactive {
-  background:radial-gradient(ellipse at center, rgba(26,26,53,0.4) 0%, transparent 70%);
-  gap:24px;
-}
-.interactive-title { font-size:clamp(1rem, 3vw, 1.4rem); color:#D4A5A5; letter-spacing:3px; text-align:center; }
-.interactive-canvas-wrap {
-  position:relative; width:100%; max-width:400px; height:400px;
-  border-radius:24px; overflow:hidden;
-  border:1.5px solid rgba(212,165,165,0.2);
-  cursor:pointer; touch-action:manipulation;
-  background:rgba(13,13,26,0.6);
-}
-#interactive-canvas { width:100%; height:100%; display:block; }
-.interactive-hint { color:rgba(212,165,165,0.5); font-size:0.8rem; letter-spacing:2px; text-align:center; }
-.heart-counter { color:#E84A5F; font-size:1.5rem; font-weight:bold; letter-spacing:2px; }
-
-/* ============ Finale ============ */
-#finale { text-align:center; gap:24px; }
-.finale-text {
-  font-size:clamp(1.2rem, 4vw, 1.8rem);
-  color:#D4A5A5; letter-spacing:3px; line-height:1.8;
-}
-.finale-heart { font-size:4rem; animation:heartbeat 1.2s ease-in-out infinite; }
-
 /* ============ Responsive ============ */
 @media (max-width:480px) {
   section { padding:40px 16px; }
-  .gallery-container { max-width:320px; }
   .gate-icon { font-size:3.5rem; }
 }
 </style>
@@ -399,14 +478,14 @@ section {
 <!-- ============ Password Gate ============ -->
 <div id="password-gate">
   <div class="gate-icon">🔐</div>
-  <h1 class="gate-title">这是专属于你的惊喜</h1>
-  <p class="gate-subtitle">请输入我们的密码</p>
+  <h1 class="gate-title">呆头鹅，我们在一起之后，终于迎来我陪你过的第一个生日啦</h1>
+  <p class="gate-subtitle">愿往后岁岁朝夕，我们始终携手相伴，安稳相守</p>
   <div class="gate-input-wrap" id="gate-input-wrap">
     <input type="password" id="gate-password" placeholder="••••••" maxlength="20" inputmode="numeric">
     <button id="gate-submit">💕</button>
   </div>
-  <p class="gate-error" id="gate-error">这个密码不太对哦，再试试看~</p>
-  <p class="gate-hint">💡 提示：我们的重要日期</p>
+  <p class="gate-error" id="gate-error">猜错了哦小笨蛋，再试试看呢，不行的话可以跟老公求助哦~💕</p>
+  <p class="gate-hint">💡 笨蛋想知道密码嘛，是四位数的哦，猜猜看</p>
 </div>
 
 <!-- ============ Unlock Burst ============ -->
@@ -420,20 +499,21 @@ section {
   <svg class="loading-heart" viewBox="0 0 32 32">
     <path d="M16 28 C8 20 0 14 0 8 C0 3 4 0 8 0 C11 0 14 2 16 4 C18 2 21 0 24 0 C28 0 32 3 32 8 C32 14 24 20 16 28Z" fill="#E84A5F"/>
   </svg>
-  <p class="loading-text">惊 喜 加 载 中 ...</p>
+  <p class="loading-text">宝宝真棒，答对了哦 ...</p>
 </div>
 
 <!-- ============ Music Toggle ============ -->
+<video id="bg-music" src="audio/fc4d9aca1c738ee418ab309736447931.mp4" loop playsinline preload="auto" width="1" height="1" style="position:fixed;top:0;left:0;opacity:0;pointer-events:none;z-index:-1"></video>
 <button id="music-btn" aria-label="音乐开关" title="点我播放音乐 🎵">🎵</button>
 
 <!-- ============ Hero ============ -->
 <section id="hero">
   <div class="hero-crown">👑</div>
-  <h1 class="hero-title">生 日 快 乐<br><span id="hero-name">我 的 宝 贝</span></h1>
-  <p class="hero-subtitle">HAPPY BIRTHDAY</p>
+  <h1 class="hero-title">生 日 快 乐 哦 <br><span id="hero-name">小 宝 宝</span></h1>
+  <p class="hero-subtitle">MAY YOU BE HAPPY EVERY SINGLE DAY FROM NOW ON</p>
   <p class="hero-date" id="hero-date">✨ 专属于你的这一天 ✨</p>
   <div class="scroll-hint">
-    <span>向下滑动</span>
+    <span>往下滑哦笨蛋</span>
     <div class="scroll-arrow"></div>
   </div>
 </section>
@@ -461,60 +541,181 @@ section {
   </div>
   <div class="birthday-today" id="birthday-today">
     <p class="big-text">🎉 就是今天！🎉</p>
-    <p class="sub-text">生日快乐，我最爱的人</p>
+    <p class="sub-text">生日快乐，呆头鹅</p>
   </div>
 </section>
 
-<!-- ============ Photo Gallery ============ -->
-<section id="gallery">
+<!-- ============ Memory Screens - 7 Full-Viewport Memories ============ -->
+<div id="gallery">
   <h2 class="gallery-title">📷 我们的美好回忆</h2>
-  <div class="gallery-container" id="gallery-container">
-    <div class="gallery-track" id="gallery-track">
-      <!-- 照片1 - 替换 src 为你的照片 -->
-      <div class="gallery-slide">
-        <div class="placeholder-img">🌸<p class="photo-placeholder-text">点击替换为<br>你们的合照</p></div>
-        <div class="slide-caption">我们的第一张合照</div>
-      </div>
-      <!-- 照片2 -->
-      <div class="gallery-slide">
-        <div class="placeholder-img">🌊<p class="photo-placeholder-text">点击替换为<br>你们的合照</p></div>
-        <div class="slide-caption">一起看过的风景</div>
-      </div>
-      <!-- 照片3 -->
-      <div class="gallery-slide">
-        <div class="placeholder-img">🎄<p class="photo-placeholder-text">点击替换为<br>你们的合照</p></div>
-        <div class="slide-caption">最温暖的瞬间</div>
-      </div>
-      <!-- 照片4 -->
-      <div class="gallery-slide">
-        <div class="placeholder-img">💕<p class="photo-placeholder-text">点击替换为<br>你们的合照</p></div>
-        <div class="slide-caption">你的笑容最美</div>
-      </div>
-      <!-- 照片5 -->
-      <div class="gallery-slide">
-        <div class="placeholder-img">🌟<p class="photo-placeholder-text">点击替换为<br>你们的合照</p></div>
-        <div class="slide-caption">未完待续...</div>
-      </div>
-    </div>
-  </div>
-  <div class="gallery-nav">
-    <button class="gallery-btn" id="gallery-prev">◀</button>
-    <div class="gallery-dots" id="gallery-dots"></div>
-    <button class="gallery-btn" id="gallery-next">▶</button>
-  </div>
-</section>
+  <p class="gallery-subtitle">每一张照片，都是一个故事</p>
 
-<!-- ============ Video Section ============ -->
-<section id="video-section">
-  <h2 class="video-title">🎬 我们的视频回忆</h2>
-  <div class="video-container" id="video-container">
-    <div class="video-placeholder">
-      🎥
-      <span>把你们的视频放在这里</span>
+  <!-- 回忆 01 -->
+  <div class="memory-screen">
+    <div class="memory-photo">
+      <img src="photos/1.jpg" alt="第一次相遇">
+    </div>
+    <div class="memory-text">
+      <span class="memory-number">01</span>
+      <span class="memory-date">2025.12.10</span>
+      <h3 class="memory-title">我们在一起啦！</h3>
+      <p class="memory-story">具体的表白时间，我没有记录下来，哈哈，也可能是当时太紧张了吧，不过大概是四点半到五点半之间，那就定在17:20吧，哈哈哈哈，很浪漫的时间哦。这是我们的第一张照片，当时你可害羞了呢，我和你说拍一张牵手的照片你都会说不要，嘿嘿，现在怎么就问我要不要吃屎了呢，真变态，被我带坏了捏。</p>
+      <span class="memory-emoji">💕</span>
     </div>
   </div>
-  <p class="video-hint">💡 提示：在代码中把 video-placeholder 替换为 &lt;video src="你的视频.mp4" controls&gt;&lt;/video&gt;</p>
-</section>
+
+  <!-- 回忆 02 -->
+  <div class="memory-screen">
+    <div class="memory-photo">
+      <img src="photos/2.jpg" alt="一起看海">
+    </div>
+    <div class="memory-text">
+      <span class="memory-number">02</span>
+      <span class="memory-date">2025.12.12</span>
+      <h3 class="memory-title">属于我们的第一个戒指</h3>
+      <p class="memory-story">	这时候我们才刚刚在一起三天耶，我们去做了属于我们两个的对戒，这是我们的第一对戒指喔，当时这个扭转的造型还是我选的捏，嘿嘿，真好看，我的眼光不错吧！</p>
+      <span class="memory-emoji">🌅</span>
+    </div>
+  </div>
+
+  <!-- 回忆 03 -->
+  <div class="memory-screen">
+    <div class="memory-photo">
+      <img src="photos/3.jpg" alt="无情的背影">
+    </div>
+    <div class="memory-text">
+      <span class="memory-number">03</span>
+      <span class="memory-date">2025.12.23</span>
+      <h3 class="memory-title">无情的背影</h3>
+      <p class="memory-story">还记得这张照片嘛小贝贝，那段时间我经常忍不住想去找你玩，但是你的课又很多，没有那么多时间出来，我就去陪你上晚自习，回想起来真的好幸福，嘿嘿。这是当时陪你上完第二节晚自习的时候，你送我回学校的时候拍的，担心你晚自习下课之后我的宿舍门就关了，所以只能提前走噜。这是你当时转身回教室的时候，我偷偷拍的，嘿嘿，还发给你看过的捏。</p>
+      <span class="memory-emoji">🎁</span>
+    </div>
+  </div>
+
+  <!-- 回忆 04 -->
+  <div class="memory-screen">
+    <div class="memory-photo">
+      <img src="photos/4.jpg" alt="情人节">
+    </div>
+    <div class="memory-text">
+      <span class="memory-number">04</span>
+      <span class="memory-date">2025.12.31</span>
+      <h3 class="memory-title">和宝宝一起跨年哦！</h3>
+      <p class="memory-story">这是我跨年给你准备的小礼物，你给他取名字叫海葵，希望晚上我不在你身边的时候,她有好好陪着你、守护你。宝宝当时约我一起去外面跨年，说是闺蜜带着男朋友了，让你也带上，问我要不要一起去，嘿嘿，完全是因为这个嘛，我不相信哦，小贝贝难道不想和香香软软的我一起睡觉觉嘛。我们还一起去逛了超市、去吃了烤肉，嘿嘿，吃完回酒店的时候外面下了好大的雨，结果又打不到车子，后面就只能买了一把伞坐地铁回去的捏，那把小伞罩不住我们两个，我们的身上都被淋湿了。雨真的很大，可我只感觉很幸福。</p>
+      <span class="memory-emoji">💝</span>
+    </div>
+  </div>
+
+  <!-- 回忆 05 -->
+  <div class="memory-screen">
+    <div class="memory-photo">
+      <img src="photos/5.jpg" alt="小日子">
+    </div>
+    <div class="memory-text">
+      <span class="memory-number">05</span>
+      <span class="memory-date">2026.01.07</span>
+      <h3 class="memory-title">第一次合照哟
+      <p class="memory-story">还记得这张照片嘛，这是我们的第一张合照，我是一个不爱拍照的人，但是我想记录下我们的瞬间，这张照片好像是我软磨硬泡之下抓拍的，哈哈哈哈哈，我记得当时我装作突发奇想，其实是我蓄谋已久啦，才有了这张照片诺！
+      <span class="memory-emoji">🏠</span>
+    </div>
+  </div>
+
+  <!-- 回忆 06 -->
+  <div class="memory-screen">
+    <div class="memory-photo">
+      <img src="photos/6.jpg" alt="一起去更多地方">
+    </div>
+    <div class="memory-text">
+      <span class="memory-number">06</span>
+      <span class="memory-date">2026.04.17</span>
+      <h3 class="memory-title">睡懒觉的小笨蛋</h3>
+      <p class="memory-story">提示：张照片拍摄于下午五点五十四，你这个小懒猪还在睡觉，我都睡醒了，还在抱着我呼呼大睡呢，本来想一巴掌给你呼醒的，但是低头一看，怎么这么可爱呢，就拍下这张宝宝的睡照啦，是不是可爱爆了，嘿嘿。
+
+      <span class="memory-emoji">🌍</span>
+    </div>
+  </div>
+
+  <!-- 回忆 07 -->
+  <div class="memory-screen">
+    <div class="memory-photo">
+      <img src="photos/7.jpg" alt="未完待续" style="object-fit:contain; background:#0d0d1a;">
+    </div>
+    <div class="memory-text">
+      <span class="memory-number">07</span>
+      <span class="memory-date">2026.04.18</span>
+      <h3 class="memory-title">认真做陶艺的宝宝</h3>
+      <p class="memory-story">这张照片你应该没有见过叭，这是我们去做陶艺的时候，我偷偷拍的哦，我可满意了，是不是拍的可漂亮噜，我的宝宝是最可爱的。宝宝给我做的小杯子，画的可仔细、可认真了呢，我有好好保留在宿舍哦。</p>
+      <span class="memory-emoji">💖</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ============ Video Screens ============ -->
+
+<!-- 视频 1 -->
+<div class="video-screen" id="video-screen-1">
+  <div class="video-header">
+    <h2 class="video-title">🎬 官宣小视频</h2>
+    <p class="video-subtitle">好像来回拍了好多遍，其实我的私心想你多亲我几次，嘿嘿</p>
+  </div>
+  <div class="video-player-wrap">
+    <video src="videos/11.mp4" autoplay muted loop playsinline preload="auto" poster="photos/1.jpg">
+      你的浏览器不支持视频播放
+    </video>
+  </div>
+</div>
+
+<!-- 视频 2 -->
+<div class="video-screen" id="video-screen-2">
+  <div class="video-header">
+    <h2 class="video-title">🎬 和宝宝一起骑车</h2>
+    <p class="video-subtitle">你还想骑车撞我，真可恶！！！</p>
+  </div>
+  <div class="video-player-wrap">
+    <video src="videos/22.mp4" autoplay muted loop playsinline preload="auto" poster="photos/2.jpg">
+      你的浏览器不支持视频播放
+    </video>
+  </div>
+</div>
+
+<!-- ============ Auto Slideshow ============ -->
+<div id="slideshow">
+  <div class="slideshow-track" id="slideshow-track">
+    <div class="slideshow-slide active"><img src="slides/362a1ac380bfc78fdd3a1286a22f56d1.JPG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/78686_livephoto.jpeg" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/94057.JPG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/94060.JPG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/9c8c2f92e356c5d0611162eb94afcaff.JPG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/f4e71f30a1e36bd86ea6750394cbb216.JPG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_3330.jpeg" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_3490.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_3492.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_3493.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_3494.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_3539.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_3553.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_3558.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_3587.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_3588.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_3590.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_3658.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_3659.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_4009.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_4011.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_4044.jpeg" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_4052.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_4067.jpeg" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_4254.jpeg" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_4283.PNG" alt=""></div>
+    <div class="slideshow-slide"><img src="slides/IMG_4490.PNG" alt=""></div>
+  </div>
+  <div class="slideshow-overlay">
+    <h2 class="slideshow-title">未 完 待 续</h2>
+    <p class="slideshow-sub">我们的故事 · 才刚刚开始</p>
+  </div>
+  <div class="slideshow-dots" id="slideshow-dots"></div>
+</div>
 
 <!-- ============ Love Letter ============ -->
 <section id="letter">
@@ -543,24 +744,6 @@ section {
   </div>
 </section>
 
-<!-- ============ Interactive ============ -->
-<section id="interactive">
-  <h2 class="interactive-title">💝 点一点，送上你的祝福</h2>
-  <div class="interactive-canvas-wrap" id="interactive-wrap">
-    <canvas id="interactive-canvas"></canvas>
-  </div>
-  <p class="interactive-hint">👆 在画布上点击或滑动，留下爱心</p>
-  <p class="heart-counter">已送出 <span id="heart-count">0</span> 颗爱心 ❤️</p>
-</section>
-
-<!-- ============ Finale ============ -->
-<section id="finale">
-  <p class="finale-text">以此页面，献给世界上最好的你</p>
-  <p class="finale-text">愿每一天都如今天一般美好</p>
-  <div class="finale-heart">💖</div>
-  <p style="color:rgba(212,165,165,0.5); letter-spacing:3px; margin-top:16px;">生 日 快 乐</p>
-</section>
-
 </div><!-- /#main-content -->
 
 <!-- ================================================================
@@ -571,10 +754,10 @@ section {
 // 🔧🔧🔧 在这里修改个性化设置！🔧🔧🔧
 // ================================================================
 const CONFIG = {
-  PASSWORD: '0715',           // 📌 页面解锁密码（改成你们的纪念日/她的生日）
-  GIRLFRIEND_NAME: '宝贝',    // 📌 她的名字或昵称
+  PASSWORD: '1210',           // 📌 页面解锁密码（改成你们的纪念日/她的生日）
+  GIRLFRIEND_NAME: '呆头鹅',   // 📌 她的名字或昵称
   BIRTHDAY_MONTH: 6,          // 📌 生日月份 (0=1月, 6=7月)
-  BIRTHDAY_DAY: 15,           // 📌 生日日期
+  BIRTHDAY_DAY: 16,           // 📌 生日日期
 };
 // ================================================================
 
@@ -714,8 +897,11 @@ function tryUnlock() {
         loadingScreen.classList.add('hidden');
       }, 2000);
 
-      // Init interactive canvas after main content visible
-      setTimeout(initInteractiveCanvas, 500);
+      // Auto-play music after unlock
+      if (!musicPlaying) {
+        startMusic();
+      }
+
     }, 600);
 
   } else {
@@ -782,44 +968,85 @@ function updateCountdown() {
 updateCountdown();
 setInterval(updateCountdown, 1000);
 
-// ==================== Photo Gallery ====================
-const track = document.getElementById('gallery-track');
-const dotsContainer = document.getElementById('gallery-dots');
-const slides = document.querySelectorAll('.gallery-slide');
-let currentSlide = 0;
-const totalSlides = slides.length;
+// ==================== Memory Screens - Scroll Reveal ====================
+const memoryScreens = document.querySelectorAll('.memory-screen');
 
-for (let i = 0; i < totalSlides; i++) {
+function checkMemoryScreens() {
+  memoryScreens.forEach((screen, i) => {
+    const rect = screen.getBoundingClientRect();
+    if (rect.top < window.innerHeight * 0.75) {
+      screen.style.opacity = '1';
+      screen.style.transform = 'translateY(0)';
+    }
+  });
+}
+
+memoryScreens.forEach((screen, i) => {
+  screen.style.opacity = '0';
+  screen.style.transform = 'translateY(40px)';
+  screen.style.transition = `opacity 0.8s ease ${i * 0.08}s, transform 0.8s ease ${i * 0.08}s`;
+});
+window.addEventListener('scroll', checkMemoryScreens);
+window.addEventListener('load', () => setTimeout(checkMemoryScreens, 400));
+
+// ==================== Video Autoplay on Scroll ====================
+const videoScreens = document.querySelectorAll('.video-screen video');
+const videoObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    const video = entry.target;
+    if (entry.isIntersecting) {
+      video.play().catch(() => {});
+    } else {
+      video.pause();
+    }
+  });
+}, { threshold: 0.5 });
+
+videoScreens.forEach(video => {
+  video.muted = true;
+  videoObserver.observe(video);
+  // Try to play immediately in case already visible
+  video.play().catch(() => {});
+});
+
+// ==================== Auto Slideshow ====================
+const slideEls = document.querySelectorAll('.slideshow-slide');
+const dotsContainer = document.getElementById('slideshow-dots');
+let currentSlide = 0;
+const totalSlides = slideEls.length;
+let slideshowInterval;
+
+// Create dots
+slideEls.forEach((_, i) => {
   const dot = document.createElement('div');
-  dot.className = 'gallery-dot' + (i === 0 ? ' active' : '');
+  dot.className = 'slideshow-dot' + (i === 0 ? ' active' : '');
   dot.addEventListener('click', () => goToSlide(i));
   dotsContainer.appendChild(dot);
-}
-const dots = document.querySelectorAll('.gallery-dot');
+});
+const dots = document.querySelectorAll('.slideshow-dot');
 
 function goToSlide(index) {
+  if (index === currentSlide) return;
+  slideEls[currentSlide].classList.remove('active');
+  dots[currentSlide].classList.remove('active');
   currentSlide = index;
-  track.style.transform = `translateX(-${currentSlide * 100}%)`;
-  dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
+  slideEls[currentSlide].classList.add('active');
+  dots[currentSlide].classList.add('active');
+  // Reset timer on manual interaction
+  resetSlideshowTimer();
 }
 
-document.getElementById('gallery-prev').addEventListener('click', () => {
-  goToSlide((currentSlide - 1 + totalSlides) % totalSlides);
-});
-document.getElementById('gallery-next').addEventListener('click', () => {
+function nextSlide() {
   goToSlide((currentSlide + 1) % totalSlides);
-});
+}
 
-let touchStartX = 0;
-document.getElementById('gallery-container').addEventListener('touchstart', e => {
-  touchStartX = e.touches[0].clientX;
-});
-document.getElementById('gallery-container').addEventListener('touchend', e => {
-  const diff = touchStartX - e.changedTouches[0].clientX;
-  if (Math.abs(diff) > 50) {
-    goToSlide(diff > 0 ? (currentSlide + 1) % totalSlides : (currentSlide - 1 + totalSlides) % totalSlides);
-  }
-});
+function resetSlideshowTimer() {
+  clearInterval(slideshowInterval);
+  slideshowInterval = setInterval(nextSlide, 2000);
+}
+
+// Start auto-advance
+resetSlideshowTimer();
 
 // ==================== Love Letter ====================
 let letterFlipped = false;
@@ -842,137 +1069,30 @@ document.getElementById('letter-envelope').addEventListener('click', () => {
   letterFlipped = !letterFlipped;
 });
 
-// ==================== Interactive Hearts Canvas ====================
-let iCanvas, iCtx, iWrap;
-let heartCount = 0;
-let floatingHearts = [];
-let interactiveInited = false;
-
-function initInteractiveCanvas() {
-  if (interactiveInited) return;
-  interactiveInited = true;
-
-  iCanvas = document.getElementById('interactive-canvas');
-  iCtx = iCanvas.getContext('2d');
-  iWrap = document.getElementById('interactive-wrap');
-
-  function resizeICanvas() {
-    const rect = iWrap.getBoundingClientRect();
-    iCanvas.width = rect.width;
-    iCanvas.height = rect.height;
-  }
-  resizeICanvas();
-  window.addEventListener('resize', resizeICanvas);
-
-  function drawHeart(ctx, x, y, size, alpha = 1) {
-    ctx.save();
-    ctx.globalAlpha = alpha;
-    ctx.fillStyle = `hsl(${340 + Math.random() * 20}, 80%, ${55 + Math.random() * 20}%)`;
-    ctx.beginPath();
-    const s = size;
-    ctx.moveTo(x, y + s * 0.3);
-    ctx.bezierCurveTo(x, y, x - s * 0.5, y, x - s * 0.5, y - s * 0.3);
-    ctx.bezierCurveTo(x - s * 0.5, y - s * 0.7, x, y - s * 0.8, x, y - s);
-    ctx.bezierCurveTo(x, y - s * 0.8, x + s * 0.5, y - s * 0.7, x + s * 0.5, y - s * 0.3);
-    ctx.bezierCurveTo(x + s * 0.5, y, x, y, x, y + s * 0.3);
-    ctx.fill();
-    ctx.restore();
-  }
-
-  function spawnHeart(x, y) {
-    const size = Math.random() * 16 + 8;
-    floatingHearts.push({
-      x, y, size,
-      vy: -(Math.random() * 2 + 1.5),
-      vx: (Math.random() - 0.5) * 1.5,
-      alpha: 1, life: 1,
-    });
-    heartCount++;
-    document.getElementById('heart-count').textContent = heartCount;
-  }
-
-  function animateInteractive() {
-    iCtx.clearRect(0, 0, iCanvas.width, iCanvas.height);
-    iCtx.fillStyle = 'rgba(13,13,26,0.15)';
-    iCtx.fillRect(0, 0, iCanvas.width, iCanvas.height);
-
-    floatingHearts = floatingHearts.filter(h => h.life > 0);
-    floatingHearts.forEach(h => {
-      h.y += h.vy;
-      h.x += h.vx;
-      h.vy -= 0.02;
-      h.life -= 0.008;
-      h.alpha = h.life;
-      drawHeart(iCtx, h.x, h.y, h.size, h.alpha);
-    });
-    requestAnimationFrame(animateInteractive);
-  }
-  animateInteractive();
-
-  iWrap.addEventListener('click', e => {
-    const rect = iWrap.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    spawnHeart(x, y);
-    for (let i = 0; i < 3; i++) {
-      setTimeout(() => spawnHeart(x + (Math.random()-0.5)*40, y + (Math.random()-0.5)*40), i * 60);
-    }
-  });
-
-  iWrap.addEventListener('touchmove', e => {
-    e.preventDefault();
-    const rect = iWrap.getBoundingClientRect();
-    const x = e.touches[0].clientX - rect.left;
-    const y = e.touches[0].clientY - rect.top;
-    if (Math.random() < 0.3) spawnHeart(x, y);
-  }, { passive: false });
-}
-
 // ==================== Music ====================
+const bgMusic = document.getElementById('bg-music');
+const musicBtn = document.getElementById('music-btn');
 let musicPlaying = false;
-let audioCtx = null;
-let musicInterval = null;
 
-function playHappyBirthday() {
-  if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-  const notes = [
-    { freq:261.63, dur:0.5 },{ freq:261.63, dur:0.5 },{ freq:293.66, dur:0.8 },
-    { freq:261.63, dur:0.8 },{ freq:349.23, dur:0.8 },{ freq:329.63, dur:1.2 },
-    { freq:261.63, dur:0.5 },{ freq:261.63, dur:0.5 },{ freq:293.66, dur:0.8 },
-    { freq:261.63, dur:0.8 },{ freq:392.00, dur:0.8 },{ freq:349.23, dur:1.2 },
-    { freq:261.63, dur:0.5 },{ freq:261.63, dur:0.5 },{ freq:523.25, dur:0.8 },
-    { freq:440.00, dur:0.8 },{ freq:349.23, dur:0.8 },{ freq:329.63, dur:0.8 },
-    { freq:293.66, dur:2.0 },
-    { freq:466.16, dur:0.5 },{ freq:466.16, dur:0.5 },{ freq:440.00, dur:0.8 },
-    { freq:349.23, dur:0.8 },{ freq:392.00, dur:0.8 },{ freq:349.23, dur:2.0 },
-  ];
-  let time = audioCtx.currentTime;
-  notes.forEach(n => {
-    const osc = audioCtx.createOscillator();
-    const gain = audioCtx.createGain();
-    osc.connect(gain); gain.connect(audioCtx.destination);
-    osc.type = 'triangle';
-    osc.frequency.value = n.freq;
-    gain.gain.setValueAtTime(0.15, time);
-    gain.gain.exponentialRampToValueAtTime(0.001, time + n.dur * 0.9);
-    osc.start(time); osc.stop(time + n.dur);
-    time += n.dur;
-  });
+function startMusic() {
+  bgMusic.play().catch(() => {});
+  musicBtn.textContent = '🎶';
+  musicBtn.classList.add('playing');
+  musicPlaying = true;
 }
 
-const musicBtn = document.getElementById('music-btn');
+function stopMusic() {
+  bgMusic.pause();
+  musicBtn.textContent = '🎵';
+  musicBtn.classList.remove('playing');
+  musicPlaying = false;
+}
+
 musicBtn.addEventListener('click', () => {
   if (!musicPlaying) {
-    playHappyBirthday();
-    musicBtn.textContent = '🎶';
-    musicBtn.classList.add('playing');
-    musicPlaying = true;
-    musicInterval = setInterval(playHappyBirthday, 20000);
+    startMusic();
   } else {
-    clearInterval(musicInterval);
-    musicBtn.textContent = '🎵';
-    musicBtn.classList.remove('playing');
-    musicPlaying = false;
+    stopMusic();
   }
 });
 
@@ -982,28 +1102,6 @@ document.getElementById('hero-date').textContent =
   `✨ ${bday.getFullYear()}年${bday.getMonth()+1}月${bday.getDate()}日 ✨`;
 
 // ==================== Keyboard shortcut ====================
-document.addEventListener('keydown', e => {
-  if ((e.key === '❤' || e.key === '♥') && mainContent.classList.contains('visible')) {
-    document.getElementById('interactive-wrap').scrollIntoView({ behavior:'smooth' });
-    if (iWrap) {
-      const rect = iWrap.getBoundingClientRect();
-      for (let i = 0; i < 10; i++) {
-        setTimeout(() => {
-          const size = Math.random() * 16 + 8;
-          floatingHearts.push({
-            x: rect.width/2 + (Math.random()-0.5)*100,
-            y: rect.height/2 + (Math.random()-0.5)*100,
-            size,
-            vy: -(Math.random()*2+1.5), vx: (Math.random()-0.5)*1.5,
-            alpha:1, life:1,
-          });
-          heartCount++;
-          document.getElementById('heart-count').textContent = heartCount;
-        }, i*40);
-      }
-    }
-  }
-});
 </script>
 </body>
 </html>

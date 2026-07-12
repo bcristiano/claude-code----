@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="headerBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D4F8B"/>
+      <stop offset="100%" stop-color="#0891B2"/>
+    </linearGradient>
+    <radialGradient id="bgDecor" cx="90%" cy="10%" r="40%">
+      <stop offset="0%" stop-color="#0D4F8B" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#0D4F8B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect width="1280" height="720" fill="url(#bgDecor)"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="1280" height="5" fill="url(#headerBar)"/>
+  <!-- Title -->
+  <text x="60" y="60" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="32" font-weight="bold" fill="#0D4F8B">先诊断，再施工 — 四种墙面潮湿类型</text>
+  <text x="60" y="90" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">一楼墙面通常是「毛细渗透 + 冷凝结露」叠加，需综合治理</text>
+  <!-- ===== Card 1: 地下毛细渗透 (top-left) ===== -->
+  <g id="card-capillary">
+    <rect x="60" y="120" width="560" height="260" rx="12" fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1"/>
+    <rect x="60" y="120" width="560" height="6" rx="3" fill="#E8612C"/>
+    <rect x="60" y="123" width="560" height="3" fill="#E8612C"/>
+    <use data-icon="chunk-filled/droplet" x="96" y="156" width="40" height="40" fill="#E8612C"/>
+    <text x="152" y="170" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1A1A2E">地下毛细渗透</text>
+    <text x="152" y="194" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">地下水汽沿墙体毛细孔向上渗透</text>
+    <line x1="96" y1="216" x2="584" y2="216" stroke="#F0F4F8" stroke-width="1"/>
+    <text x="96" y="244" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">· 墙根30cm内起皮、鼓包</text>
+    <text x="96" y="272" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">· 黑绿色霉斑</text>
+    <text x="96" y="300" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">· 常见于一楼所有靠外墙和内隔墙底部</text>
+    <rect x="96" y="322" width="80" height="24" rx="12" fill="#E8612C" fill-opacity="0.1"/>
+    <text x="136" y="339" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8612C">最常见</text>
+  </g>
+  <!-- ===== Card 2: 冷凝结露 (top-right) ===== -->
+  <g id="card-condensation">
+    <rect x="660" y="120" width="560" height="260" rx="12" fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1"/>
+    <rect x="660" y="120" width="560" height="6" rx="3" fill="#0891B2"/>
+    <rect x="660" y="123" width="560" height="3" fill="#0891B2"/>
+    <use data-icon="chunk-filled/circle-info" x="696" y="156" width="40" height="40" fill="#0891B2"/>
+    <text x="752" y="170" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1A1A2E">冷凝结露</text>
+    <text x="752" y="194" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">暖湿空气遇到温度较低的墙体表面结露</text>
+    <line x1="696" y1="216" x2="1184" y2="216" stroke="#F0F4F8" stroke-width="1"/>
+    <text x="696" y="244" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">· 全墙挂水珠，像"流泪"一样</text>
+    <text x="696" y="272" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">· 梅雨季 / 回南天严重</text>
+    <text x="696" y="300" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">· 通风差的房间、北向墙面</text>
+  </g>
+  <!-- ===== Card 3: 外墙渗漏 (bottom-left) ===== -->
+  <g id="card-leak">
+    <rect x="60" y="410" width="560" height="260" rx="12" fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1"/>
+    <rect x="60" y="410" width="560" height="6" rx="3" fill="#0D4F8B"/>
+    <rect x="60" y="413" width="560" height="3" fill="#0D4F8B"/>
+    <use data-icon="chunk-filled/building" x="96" y="446" width="40" height="40" fill="#0D4F8B"/>
+    <text x="152" y="460" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1A1A2E">外墙渗漏</text>
+    <text x="152" y="484" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">外墙防水层破损或裂缝导致雨水渗入</text>
+    <line x1="96" y1="506" x2="584" y2="506" stroke="#F0F4F8" stroke-width="1"/>
+    <text x="96" y="534" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">· 雨天加重，渗水集中</text>
+    <text x="96" y="562" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">· 有明显水流痕迹</text>
+    <text x="96" y="590" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">· 迎风面外墙、窗框周围</text>
+  </g>
+  <!-- ===== Card 4: 管道串水 (bottom-right) ===== -->
+  <g id="card-pipe">
+    <rect x="660" y="410" width="560" height="260" rx="12" fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1"/>
+    <rect x="660" y="410" width="560" height="6" rx="3" fill="#5B6E7D"/>
+    <rect x="660" y="413" width="560" height="3" fill="#5B6E7D"/>
+    <use data-icon="chunk-filled/wrench" x="696" y="446" width="40" height="40" fill="#5B6E7D"/>
+    <text x="752" y="460" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1A1A2E">管道渗漏 / 卫生间串水</text>
+    <text x="752" y="484" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">水管微漏或卫生间防水失效</text>
+    <line x1="696" y1="506" x2="1184" y2="506" stroke="#F0F4F8" stroke-width="1"/>
+    <text x="696" y="534" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">· 只集中在厨卫相邻墙面或管道附近</text>
+    <text x="696" y="562" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">· 卫生间门口两侧常见</text>
+    <text x="696" y="590" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">· 厨房下水管道周围</text>
+  </g>
+  <!-- Page number -->
+  <text x="1220" y="695" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">2 / 10</text>
+</svg>

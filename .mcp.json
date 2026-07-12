@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "blender": {
+      "command": "E:\\Python312\\python.exe",
+      "args": ["-m", "blender_mcp.server"],
+      "description": "Blender MCP - 操控 Blender 3D 建模软件",
+      "env": {
+        "BLENDER_HOST": "localhost",
+        "BLENDER_PORT": "9876"
+      }
+    }
+  }
+}

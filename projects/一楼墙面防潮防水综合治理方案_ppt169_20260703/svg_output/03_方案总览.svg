@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="headerBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D4F8B"/>
+      <stop offset="100%" stop-color="#0891B2"/>
+    </linearGradient>
+    <linearGradient id="extGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D4F8B"/>
+      <stop offset="100%" stop-color="#07355E"/>
+    </linearGradient>
+    <linearGradient id="intGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0891B2"/>
+      <stop offset="100%" stop-color="#065F6E"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="1280" height="5" fill="url(#headerBar)"/>
+  <!-- Title -->
+  <text x="60" y="60" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="32" font-weight="bold" fill="#0D4F8B">治水之道：先外后内，双管齐下</text>
+  <text x="60" y="90" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">外墙优先阻断水源 → 内墙跟进巩固防线，内外兼治才能彻底解决问题</text>
+
+  <!-- ===== Left Column: 方案二 - 外墙 ===== -->
+  <rect x="60" y="120" width="555" height="550" rx="12" fill="#F0F4F8" stroke="#D0D8E0" stroke-width="1"/>
+  <!-- Header badge -->
+  <rect x="60" y="120" width="555" height="56" rx="12" fill="url(#extGrad)"/>
+  <rect x="60" y="164" width="555" height="12" fill="url(#extGrad)"/>
+  <use data-icon="chunk-filled/building" x="90" y="134" width="36" height="36" fill="#FFFFFF"/>
+  <text x="140" y="150" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">方案二：外墙正水面防水</text>
+  <text x="140" y="170" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.8">优先执行 — 从源头阻断水源</text>
+
+  <!-- Priority badge -->
+  <rect x="515" y="132" width="80" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.2"/>
+  <text x="555" y="151" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">★★★ 优先</text>
+
+  <!-- Steps -->
+  <g id="ext-steps">
+    <circle cx="110" cy="230" r="22" fill="#0D4F8B"/>
+    <text x="110" y="236" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">1</text>
+    <text x="150" y="228" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="18" font-weight="bold" fill="#1A1A2E">清洁外墙表面 + 修补裂缝</text>
+    <text x="150" y="252" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">高压水枪冲洗污垢 / 水泥砂浆填补裂缝</text>
+
+    <circle cx="110" cy="310" r="22" fill="#0D4F8B"/>
+    <text x="110" y="316" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">2</text>
+    <text x="150" y="308" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="18" font-weight="bold" fill="#1A1A2E">涂刷丙烯酸弹性防水涂料 2遍</text>
+    <text x="150" y="332" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">间隔 4-6 小时 / 覆盖率 3-5 m²/kg</text>
+
+    <circle cx="110" cy="390" r="22" fill="#0D4F8B"/>
+    <text x="110" y="396" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">3</text>
+    <text x="150" y="388" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="18" font-weight="bold" fill="#1A1A2E">墙角与地面交接处加强处理</text>
+    <text x="150" y="412" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">向上翻起 20-30cm，形成整体密封</text>
+  </g>
+
+  <!-- Info bar -->
+  <rect x="90" y="450" width="495" height="80" rx="8" fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1"/>
+  <use data-icon="chunk-filled/clock" x="110" y="474" width="22" height="22" fill="#0D4F8B" opacity="0.7"/>
+  <text x="140" y="490" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" fill="#1A1A2E">耗时约<tspan font-weight="bold" fill="#0D4F8B"> 1-2 天</tspan> · 材料费约<tspan font-weight="bold" fill="#E8612C"> 800-1,500 元</tspan></text>
+  <text x="140" y="514" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">京东搜 → 东方雨虹 HCA121 丙烯酸弹性防水涂料</text>
+
+  <!-- ===== Center Divider ===== -->
+  <line x1="640" y1="140" x2="640" y2="650" stroke="#D0D8E0" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <circle cx="640" cy="395" r="18" fill="#FFFFFF" stroke="#D0D8E0" stroke-width="2"/>
+  <text x="640" y="401" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#E8612C">+</text>
+
+  <!-- ===== Right Column: 方案一 - 内墙 ===== -->
+  <rect x="665" y="120" width="555" height="550" rx="12" fill="#F0F4F8" stroke="#D0D8E0" stroke-width="1"/>
+  <!-- Header badge -->
+  <rect x="665" y="120" width="555" height="56" rx="12" fill="url(#intGrad)"/>
+  <rect x="665" y="164" width="555" height="12" fill="url(#intGrad)"/>
+  <use data-icon="chunk-filled/shield-check" x="695" y="134" width="36" height="36" fill="#FFFFFF"/>
+  <text x="745" y="150" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">方案一：内墙背水面综合治理</text>
+  <text x="745" y="170" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.8">外墙完成后跟进 — 七步巩固防线</text>
+
+  <rect x="1120" y="132" width="80" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.2"/>
+  <text x="1160" y="151" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">★★☆ 跟进</text>
+
+  <!-- Compact 7-step list -->
+  <g id="int-steps">
+    <text x="695" y="215" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">
+      <tspan font-weight="bold" fill="#0891B2">①</tspan> 铲除霉变层（超出霉变区30cm）
+    </text>
+    <text x="695" y="247" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">
+      <tspan font-weight="bold" fill="#0891B2">②</tspan> 杀菌消毒（84消毒液1:10湿敷10-15分钟）
+    </text>
+    <text x="695" y="279" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">
+      <tspan font-weight="bold" fill="#0891B2">③</tspan> 基层封闭（防水型墙固封闭毛细孔）
+    </text>
+    <text x="695" y="311" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">
+      <tspan font-weight="bold" fill="#0891B2">④</tspan> 防水层（渗透结晶防水涂料 2遍 + 养护48h）
+    </text>
+    <text x="695" y="343" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">
+      <tspan font-weight="bold" fill="#0891B2">⑤</tspan> 腻子层（N型水泥基耐水腻子 2遍，间隔24h）
+    </text>
+    <text x="695" y="375" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">
+      <tspan font-weight="bold" fill="#0891B2">⑥</tspan> 底漆（抗碱防潮底漆 1遍）
+    </text>
+    <text x="695" y="407" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#1A1A2E">
+      <tspan font-weight="bold" fill="#0891B2">⑦</tspan> 面漆（防霉乳胶漆 / 无机涂料 2遍）
+    </text>
+  </g>
+
+  <!-- Info bar -->
+  <rect x="695" y="450" width="495" height="80" rx="8" fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1"/>
+  <use data-icon="chunk-filled/clock" x="715" y="474" width="22" height="22" fill="#0891B2" opacity="0.7"/>
+  <text x="745" y="490" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" fill="#1A1A2E">耗时约<tspan font-weight="bold" fill="#0891B2"> 5-7 天</tspan> · 材料费约<tspan font-weight="bold" fill="#E8612C"> 1,500-3,000 元</tspan></text>
+  <text x="745" y="514" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">京东搜 → 德高K11通用型 渗透结晶防水涂料</text>
+
+  <!-- Bottom callout -->
+  <rect x="60" y="130" width="0" height="0" fill="none"/>
+  <rect x="280" y="680" width="720" height="0" fill="none"/>
+  <text x="640" y="695" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#E8612C" font-weight="bold">⚠ 外墙处理好后再做内墙，否则等于白做！先外后内 = 事半功倍</text>
+  <!-- Page number -->
+  <text x="1220" y="695" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">3 / 10</text>
+</svg>

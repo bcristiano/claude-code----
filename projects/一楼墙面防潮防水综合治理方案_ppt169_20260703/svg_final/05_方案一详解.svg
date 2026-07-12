@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="headerBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D4F8B" />
+      <stop offset="100%" stop-color="#0891B2" />
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M 0 0 L 6 4 L 0 8 Z" fill="#D0D8E0" />
+    </marker>
+  </defs>
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect x="0" y="0" width="1280" height="5" fill="url(#headerBar)" />
+  
+  <text x="60" y="58" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="32" font-weight="bold" fill="#0D4F8B">方案一：内墙背水面综合治理 — 七步到位</text>
+  <text x="60" y="86" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">从铲除到面漆 · 7步系统施工 · 耗时约5-7天 · 材料费约1,500-3,000元</text>
+
+  
+  
+  <g id="s1">
+    <circle cx="115" cy="160" r="32" fill="#E8612C" />
+    <text x="115" y="155" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">1</text>
+    
+  <g transform="translate(97.0, 200.0) scale(2.25)" fill="#E8612C">
+    <path d="M10 3.5L13.0581 0.441881C12.4304 0.15802 11.7337 0 11 0C8.23858 0 6 2.23858 6 5C6 5.45802 6.06158 5.90165 6.17692 6.32308L0 12.5L3.5 16L9.67692 9.82308C10.0983 9.93842 10.542 10 11 10C13.7614 10 16 7.76142 16 5C16 4.26633 15.842 3.56956 15.5581 2.94188L12.5 6H10V3.5Z" />
+  </g>
+    <text x="115" y="254" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">铲除霉变</text>
+    <text x="115" y="274" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">超出30cm</text>
+  </g>
+
+  <line x1="155" y1="160" x2="185" y2="160" stroke="#D0D8E0" stroke-width="2" marker-end="url(#arrow)" />
+
+  
+  <g id="s2">
+    <circle cx="240" cy="160" r="32" fill="#E8612C" />
+    <text x="240" y="155" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">2</text>
+    
+  <g transform="translate(222.0, 200.0) scale(2.25)" fill="#E8612C">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 0L2.94499 6.48801C2.32745 7.47609 2 8.61782 2 9.78301V10C2 13.3137 4.68629 16 8 16C11.3137 16 14 13.3137 14 10V9.78301C14 8.61782 13.6726 7.47609 13.055 6.48801L9 0H7ZM10 10C10 11.1046 9.10457 12 8 12V14C10.2091 14 12 12.2091 12 10H10Z" />
+  </g>
+    <text x="240" y="254" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">杀菌消毒</text>
+    <text x="240" y="274" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">84 1:10湿敷</text>
+  </g>
+
+  <line x1="280" y1="160" x2="310" y2="160" stroke="#D0D8E0" stroke-width="2" marker-end="url(#arrow)" />
+
+  
+  <g id="s3">
+    <circle cx="365" cy="160" r="32" fill="#0891B2" />
+    <text x="365" y="155" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">3</text>
+    
+  <g transform="translate(347.0, 200.0) scale(2.25)" fill="#0891B2">
+    <path d="M1 5V3L8 0L15 3V5L8 8L1 5Z" />
+    <path d="M8 16L1 13V11L8 14L15 11V13L8 16Z" />
+    <path d="M1 9L8 12L15 9V7L8 10L1 7V9Z" />
+  </g>
+    <text x="365" y="254" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">基层封闭</text>
+    <text x="365" y="274" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">防水型墙固</text>
+  </g>
+
+  <line x1="405" y1="160" x2="435" y2="160" stroke="#D0D8E0" stroke-width="2" marker-end="url(#arrow)" />
+
+  
+  <g id="s4">
+    <circle cx="490" cy="160" r="32" fill="#0D4F8B" />
+    <text x="490" y="155" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">4</text>
+    
+  <g transform="translate(472.0, 200.0) scale(2.25)" fill="#0D4F8B">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16L4.35009 13.3929C2.24773 11.8912 1 9.46667 1 6.88306V3L8 0L15 3V6.88306C15 9.46667 13.7523 11.8912 11.6499 13.3929L8 16ZM12.2071 5.70711L10.7929 4.29289L7 8.08579L5.20711 6.29289L3.79289 7.70711L7 10.9142L12.2071 5.70711Z" />
+  </g>
+    <text x="490" y="254" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">防水层</text>
+    <text x="490" y="274" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">结晶涂料2遍</text>
+  </g>
+
+  <line x1="530" y1="160" x2="560" y2="160" stroke="#D0D8E0" stroke-width="2" marker-end="url(#arrow)" />
+
+  
+  <g id="s5">
+    <circle cx="615" cy="160" r="32" fill="#0D4F8B" />
+    <text x="615" y="155" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">5</text>
+    
+  <g transform="translate(597.0, 200.0) scale(2.25)" fill="#0D4F8B">
+    <path d="M1 0H13V2H16V7.80842L9 9.30842V10H10V16H6V10H7V7.69158L14 6.19158V4H13V5H1V0Z" />
+  </g>
+    <text x="615" y="254" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">腻子层</text>
+    <text x="615" y="274" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">N型耐水2遍</text>
+  </g>
+
+  <line x1="655" y1="160" x2="685" y2="160" stroke="#D0D8E0" stroke-width="2" marker-end="url(#arrow)" />
+
+  
+  <g id="s6">
+    <circle cx="740" cy="160" r="32" fill="#0D4F8B" />
+    <text x="740" y="155" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">6</text>
+    
+  <g transform="translate(722.0, 200.0) scale(2.25)" fill="#0D4F8B">
+    <path d="M1 0H13V2H16V7.80842L9 9.30842V10H10V16H6V10H7V7.69158L14 6.19158V4H13V5H1V0Z" />
+  </g>
+    <text x="740" y="254" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">底漆</text>
+    <text x="740" y="274" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">抗碱防潮1遍</text>
+  </g>
+
+  <line x1="780" y1="160" x2="810" y2="160" stroke="#D0D8E0" stroke-width="2" marker-end="url(#arrow)" />
+
+  
+  <g id="s7">
+    <circle cx="865" cy="160" r="32" fill="#0D8C5E" />
+    <text x="865" y="155" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">7</text>
+    
+  <g transform="translate(847.0, 200.0) scale(2.25)" fill="#0D8C5E">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.6563 5.24291C15.4743 5.88358 16 6.8804 16 8C16 9.11964 15.4743 10.1165 14.6562 10.7572C14.7816 11.7886 14.4485 12.8652 13.6568 13.6569C12.8651 14.4486 11.7885 14.7817 10.7571 14.6563C10.1164 15.4743 9.1196 16 8 16C6.88038 16 5.88354 15.4743 5.24288 14.6562C4.21141 14.7817 3.13481 14.4485 2.34312 13.6568C1.55143 12.8652 1.2183 11.7886 1.34372 10.7571C0.525698 10.1164 0 9.1196 0 8C0 6.88038 0.525715 5.88354 1.34376 5.24288C1.21834 4.21141 1.55147 3.13481 2.34316 2.34312C3.13485 1.55143 4.21145 1.2183 5.24291 1.34372C5.88358 0.525698 6.8804 0 8 0C9.11964 0 10.1165 0.525732 10.7572 1.3438C11.7886 1.21838 12.8652 1.55152 13.6569 2.3432C14.4486 3.13488 14.7817 4.21146 14.6563 5.24291ZM12.2071 6.20711L10.7929 4.79289L7 8.58579L5.20711 6.79289L3.79289 8.20711L7 11.4142L12.2071 6.20711Z" />
+  </g>
+    <text x="865" y="254" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">面漆</text>
+    <text x="865" y="274" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">防霉乳胶漆2遍</text>
+  </g>
+
+  
+  
+  <path fill="#F0F4F8" stroke="#D0D8E0" stroke-width="1" d="M70,320 H420 A10,10 0 0 1 430,330 V485 A10,10 0 0 1 420,495 H70 A10,10 0 0 1 60,485 V330 A10,10 0 0 1 70,320 Z" />
+  <path fill="#0D4F8B" d="M62.50,320 H427.50 A2.50,2.50 0 0 1 430,322.50 V322.50 A2.50,2.50 0 0 1 427.50,325 H62.50 A2.50,2.50 0 0 1 60,322.50 V322.50 A2.50,2.50 0 0 1 62.50,320 Z" />
+  <text x="90" y="350" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#0D4F8B">步骤④ 防水层 — 核心工序</text>
+  <text x="90" y="378" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">粉料:水 ≈ 1:0.3 搅拌至无颗粒糊状</text>
+  <text x="90" y="402" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">横竖交叉涂刷 2遍，总厚度 ≥ 1.5mm</text>
+  <text x="90" y="426" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">第2遍与第1遍间隔 2-4 小时</text>
+  <text x="90" y="450" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">完工后<tspan font-weight="bold" fill="#E8612C">养护 48 小时</tspan>，保持湿润</text>
+  <path fill="#E8612C" fill-opacity="0.1" d="M101,462 H159 A11,11 0 0 1 170,473 V473 A11,11 0 0 1 159,484 H101 A11,11 0 0 1 90,473 V473 A11,11 0 0 1 101,462 Z" />
+  <text x="130" y="478" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8612C">京东搜德高K11</text>
+
+  
+  <path fill="#F0F4F8" stroke="#D0D8E0" stroke-width="1" d="M465,320 H815 A10,10 0 0 1 825,330 V485 A10,10 0 0 1 815,495 H465 A10,10 0 0 1 455,485 V330 A10,10 0 0 1 465,320 Z" />
+  <path fill="#0891B2" d="M457.50,320 H822.50 A2.50,2.50 0 0 1 825,322.50 V322.50 A2.50,2.50 0 0 1 822.50,325 H457.50 A2.50,2.50 0 0 1 455,322.50 V322.50 A2.50,2.50 0 0 1 457.50,320 Z" />
+  <text x="485" y="350" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#0891B2">步骤⑤ 腻子层 — 最容易翻车</text>
+  <text x="485" y="378" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">必须认准<tspan font-weight="bold" fill="#E8612C"> JG/T 298-2010 N型</tspan>标识</text>
+  <text x="485" y="402" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">粉料:水 ≈ 1:0.35 搅拌均匀</text>
+  <text x="485" y="426" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">批刮 2遍，每遍厚度 1-2mm</text>
+  <text x="485" y="450" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">间隔<tspan font-weight="bold" fill="#E8612C"> 24 小时</tspan>完全干透再批下一遍</text>
+  <path fill="#0891B2" fill-opacity="0.1" d="M496,462 H564 A11,11 0 0 1 575,473 V473 A11,11 0 0 1 564,484 H496 A11,11 0 0 1 485,473 V473 A11,11 0 0 1 496,462 Z" />
+  <text x="530" y="478" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="12" font-weight="bold" fill="#0891B2">京东搜美巢800JJ</text>
+
+  
+  <path fill="#F0F4F8" stroke="#D0D8E0" stroke-width="1" d="M860,320 H1210 A10,10 0 0 1 1220,330 V485 A10,10 0 0 1 1210,495 H860 A10,10 0 0 1 850,485 V330 A10,10 0 0 1 860,320 Z" />
+  <path fill="#E8612C" d="M852.50,320 H1217.50 A2.50,2.50 0 0 1 1220,322.50 V322.50 A2.50,2.50 0 0 1 1217.50,325 H852.50 A2.50,2.50 0 0 1 850,322.50 V322.50 A2.50,2.50 0 0 1 852.50,320 Z" />
+  <text x="880" y="350" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8612C">材料采购清单</text>
+  <text x="880" y="378" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 84消毒液 2-3瓶 · 防水型墙固 10-15kg</text>
+  <text x="880" y="402" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 渗透结晶防水涂料 35-50kg</text>
+  <text x="880" y="426" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· N型耐水腻子 80-100kg</text>
+  <text x="880" y="450" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 抗碱底漆 5-8kg · 防霉乳胶漆 15-20kg</text>
+  <text x="880" y="478" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">按100m²墙面估算 · 京东/天猫品牌旗舰店采购</text>
+
+  
+  <path fill="#E8612C" fill-opacity="0.06" stroke="#E8612C" stroke-width="1" stroke-opacity="0.2" d="M68,515 H1212 A8,8 0 0 1 1220,523 V559 A8,8 0 0 1 1212,567 H68 A8,8 0 0 1 60,559 V523 A8,8 0 0 1 68,515 Z" />
+  
+  <g transform="translate(85.0, 533.0) scale(1.5)" fill="#E8612C">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M16 15H0V12L7 0H9L16 12V15ZM7 4H9V9H7V4ZM7 11H9V13H7V11Z" />
+  </g>
+  <text x="120" y="540" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8612C">关键提醒</text>
+  <text x="120" y="560" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">必须用N型水泥基耐水腻子（JG/T 298-2010），普通石膏基腻子遇潮即粉化 = 白做！</text>
+
+  
+  <text x="1220" y="695" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">5 / 10</text>
+</svg>

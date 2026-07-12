@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="headerBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D4F8B" />
+      <stop offset="100%" stop-color="#0891B2" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect x="0" y="0" width="1280" height="5" fill="url(#headerBar)" />
+  <text x="60" y="58" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="32" font-weight="bold" fill="#0D4F8B">预算估算与品牌推荐</text>
+  <text x="60" y="86" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">总预算约 5,000-10,000 元（含人工）· 品牌旗舰店正品保障</text>
+
+  
+  <path fill="#F0F4F8" stroke="#D0D8E0" stroke-width="1" d="M72,115 H628 A12,12 0 0 1 640,127 V543 A12,12 0 0 1 628,555 H72 A12,12 0 0 1 60,543 V127 A12,12 0 0 1 72,115 Z" />
+  <text x="350" y="150" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#0D4F8B">费用分项估算（100m²墙面）</text>
+
+  
+  <g id="cost-1">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="0.5" d="M98,175 H602 A8,8 0 0 1 610,183 V219 A8,8 0 0 1 602,227 H98 A8,8 0 0 1 90,219 V183 A8,8 0 0 1 98,175 Z" />
+    
+  <g transform="translate(110.0, 193.0) scale(1.5)" fill="#0D4F8B">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M14 0H2V16H6V12H10V16H14V0ZM5 3H7V5H5V3ZM7 7H5V9H7V7ZM9 3H11V5H9V3ZM11 7H9V9H11V7Z" />
+  </g>
+    <text x="148" y="200" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E">外墙防水材料</text>
+    <text x="500" y="200" text-anchor="end" font-family="Georgia, 'Microsoft YaHei', serif" font-size="18" font-weight="bold" fill="#E8612C">800 - 1,500 元</text>
+    <text x="148" y="220" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">丙烯酸弹性防水涂料 + 辅助材料</text>
+  </g>
+
+  <g id="cost-2">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="0.5" d="M98,240 H602 A8,8 0 0 1 610,248 V284 A8,8 0 0 1 602,292 H98 A8,8 0 0 1 90,284 V248 A8,8 0 0 1 98,240 Z" />
+    
+  <g transform="translate(110.0, 258.0) scale(1.5)" fill="#0891B2">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 1H12V5H13.5L16 7.5V9H0V7.5L2.5 5H4V1ZM10 3V5H6V3H10Z" />
+    <path d="M0 11V15H16V11H0Z" />
+  </g>
+    <text x="148" y="265" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E">内墙基层处理</text>
+    <text x="500" y="265" text-anchor="end" font-family="Georgia, 'Microsoft YaHei', serif" font-size="18" font-weight="bold" fill="#E8612C">500 - 800 元</text>
+    <text x="148" y="285" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">84消毒液 + 防水型墙固</text>
+  </g>
+
+  <g id="cost-3">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="0.5" d="M98,305 H602 A8,8 0 0 1 610,313 V349 A8,8 0 0 1 602,357 H98 A8,8 0 0 1 90,349 V313 A8,8 0 0 1 98,305 Z" />
+    
+  <g transform="translate(110.0, 323.0) scale(1.5)" fill="#0D4F8B">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16L4.35009 13.3929C2.24773 11.8912 1 9.46667 1 6.88306V3L8 0L15 3V6.88306C15 9.46667 13.7523 11.8912 11.6499 13.3929L8 16ZM12.2071 5.70711L10.7929 4.29289L7 8.08579L5.20711 6.29289L3.79289 7.70711L7 10.9142L12.2071 5.70711Z" />
+  </g>
+    <text x="148" y="330" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E">防水涂料</text>
+    <text x="500" y="330" text-anchor="end" font-family="Georgia, 'Microsoft YaHei', serif" font-size="18" font-weight="bold" fill="#E8612C">600 - 1,000 元</text>
+    <text x="148" y="350" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">渗透结晶防水涂料 35-50kg</text>
+  </g>
+
+  <g id="cost-4">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="0.5" d="M98,370 H602 A8,8 0 0 1 610,378 V414 A8,8 0 0 1 602,422 H98 A8,8 0 0 1 90,414 V378 A8,8 0 0 1 98,370 Z" />
+    
+  <g transform="translate(110.0, 388.0) scale(1.5)" fill="#0891B2">
+    <path d="M1 0H13V2H16V7.80842L9 9.30842V10H10V16H6V10H7V7.69158L14 6.19158V4H13V5H1V0Z" />
+  </g>
+    <text x="148" y="395" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E">腻子 + 漆面</text>
+    <text x="500" y="395" text-anchor="end" font-family="Georgia, 'Microsoft YaHei', serif" font-size="18" font-weight="bold" fill="#E8612C">600 - 1,200 元</text>
+    <text x="148" y="415" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">N型腻子 + 抗碱底漆 + 防霉面漆</text>
+  </g>
+
+  
+  <path fill="#0D4F8B" d="M98,440 H602 A8,8 0 0 1 610,448 V488 A8,8 0 0 1 602,496 H98 A8,8 0 0 1 90,488 V448 A8,8 0 0 1 98,440 Z" />
+  <text x="120" y="474" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">材料费总计</text>
+  <text x="500" y="474" text-anchor="end" font-family="Georgia, 'Microsoft YaHei', serif" font-size="22" font-weight="bold" fill="#FFFFFF">约 2,500 - 4,000 元</text>
+
+  <text x="350" y="525" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">人工费约材料费的 1-1.5 倍 → 总预算约 5,000-10,000 元</text>
+
+  
+  <path fill="#F0F4F8" stroke="#D0D8E0" stroke-width="1" d="M677,115 H1208 A12,12 0 0 1 1220,127 V543 A12,12 0 0 1 1208,555 H677 A12,12 0 0 1 665,543 V127 A12,12 0 0 1 677,115 Z" />
+  <text x="942" y="150" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#0D4F8B">品牌推荐</text>
+
+  
+  <rect x="695" y="175" width="495" height="40" rx="0" fill="#0D4F8B" />
+  <text x="715" y="201" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">品类</text>
+  <text x="835" y="201" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">首选品牌</text>
+  <text x="1040" y="201" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">备选</text>
+
+  <line x1="820" y1="175" x2="820" y2="375" stroke="#D0D8E0" stroke-width="0.5" />
+  <line x1="1020" y1="175" x2="1020" y2="375" stroke="#D0D8E0" stroke-width="0.5" />
+
+  <line x1="695" y1="215" x2="1190" y2="215" stroke="#E2E8F0" stroke-width="0.5" />
+  <text x="715" y="240" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">防水涂料</text>
+  <text x="835" y="240" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" fill="#1A1A2E">东方雨虹 / 德高K11</text>
+  <text x="1040" y="240" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">科顺 / 青龙</text>
+
+  <line x1="695" y1="255" x2="1190" y2="255" stroke="#E2E8F0" stroke-width="0.5" />
+  <text x="715" y="280" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">耐水腻子</text>
+  <text x="835" y="280" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" fill="#1A1A2E">美巢 / 德高</text>
+  <text x="1040" y="280" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">立邦</text>
+
+  <line x1="695" y1="295" x2="1190" y2="295" stroke="#E2E8F0" stroke-width="0.5" />
+  <text x="715" y="320" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">乳胶漆</text>
+  <text x="835" y="320" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" fill="#1A1A2E">多乐士 / 立邦</text>
+  <text x="1040" y="320" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">三棵树</text>
+
+  <line x1="695" y1="335" x2="1190" y2="335" stroke="#E2E8F0" stroke-width="0.5" />
+  <text x="715" y="360" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" font-weight="bold" fill="#1A1A2E">墙固/界面剂</text>
+  <text x="835" y="360" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" fill="#1A1A2E">东方雨虹 / 德高</text>
+  <text x="1040" y="360" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">立邦</text>
+
+  
+  <path fill="#FFFFFF" stroke="#E8612C" stroke-width="1" d="M703,400 H1182 A8,8 0 0 1 1190,408 V522 A8,8 0 0 1 1182,530 H703 A8,8 0 0 1 695,522 V408 A8,8 0 0 1 703,400 Z" />
+  
+  <g transform="translate(720.0, 424.0) scale(1.75)" fill="#E8612C">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M5 11.5V14.5L6.5 16H9.5L11 14.5V11.5L12.2396 10.2604C13.3668 9.13324 14 7.60141 14 6.00736C14 2.69365 11.3137 0 8 0C4.68629 0 2 2.69365 2 6.00736C2 7.60141 2.63324 9.13324 3.76041 10.2604L5 11.5ZM7 9.87398V6H9V9.87398C10.7252 9.42994 12 7.86384 12 6C12 3.79086 10.2091 2 8 2C5.79086 2 4 3.79086 4 6C4 7.86384 5.27477 9.42994 7 9.87398Z" />
+  </g>
+  <text x="758" y="430" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="17" font-weight="bold" fill="#E8612C">采购提示</text>
+  <text x="720" y="460" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 建议自行采购，避免装修公司低端用料</text>
+  <text x="720" y="484" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 京东/天猫品牌旗舰店购买，认准防伪标识</text>
+  <text x="720" y="508" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 腻子保质期仅12个月，注意生产日期</text>
+
+  
+  <text x="60" y="590" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#5B6E7D">* 以上价格为2025年市场参考价，实际以品牌旗舰店当日报价为准。大促期间（618/双11）入手更划算。</text>
+  <text x="1220" y="695" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">8 / 10</text>
+</svg>

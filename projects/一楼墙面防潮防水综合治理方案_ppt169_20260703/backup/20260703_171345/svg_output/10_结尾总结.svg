@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D4F8B"/>
+      <stop offset="100%" stop-color="#07355E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0891B2" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#07355E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+  <rect width="1280" height="720" fill="url(#glow)"/>
+
+  <!-- Decorative lines -->
+  <line x1="0" y1="300" x2="1280" y2="300" stroke="#0891B2" stroke-width="1" stroke-opacity="0.12"/>
+  <line x1="0" y1="500" x2="1280" y2="500" stroke="#0891B2" stroke-width="1" stroke-opacity="0.08"/>
+
+  <!-- Title -->
+  <text x="640" y="180" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="40" font-weight="bold" fill="#FFFFFF">一楼防潮防水 · 核心要点</text>
+  <rect x="560" y="202" width="160" height="4" rx="2" fill="#E8612C"/>
+
+  <!-- 5 Key Points -->
+  <g id="point-1">
+    <circle cx="640" cy="280" r="4" fill="#E8612C"/>
+    <text x="640" y="280" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" fill="#FFFFFF">
+      诊断先行：搞清楚潮湿类型再动手，90%的人搞错了根源
+    </text>
+  </g>
+
+  <g id="point-2">
+    <circle cx="640" cy="340" r="4" fill="#0891B2"/>
+    <text x="640" y="340" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" fill="#FFFFFF">
+      先外后内：外墙防水优先阻断水源，内墙跟进巩固防线
+    </text>
+  </g>
+
+  <g id="point-3">
+    <circle cx="640" cy="400" r="4" fill="#E8612C"/>
+    <text x="640" y="400" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" fill="#FFFFFF">
+      材料关键：N型耐水腻子是底线，渗透结晶防水涂料是核心
+    </text>
+  </g>
+
+  <g id="point-4">
+    <circle cx="640" cy="460" r="4" fill="#0891B2"/>
+    <text x="640" y="460" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" fill="#FFFFFF">
+      习惯辅助：除湿机 + 正确通风 + 家具离墙，日常维护同样重要
+    </text>
+  </g>
+
+  <!-- Core message -->
+  <rect x="190" y="520" width="900" height="70" rx="12" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.15"/>
+  <text x="640" y="555" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.85">
+    好的防水是系统工程，不是一瓶涂料能解决的
+  </text>
+  <text x="640" y="578" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.65">
+    祝施工顺利！墙面干爽，家更舒适
+  </text>
+
+  <!-- Footer -->
+  <text x="640" y="660" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="15" fill="#FFFFFF" fill-opacity="0.45">一楼墙面防潮防水综合治理方案 · 2026年7月 · 家庭装修实用指南</text>
+  <text x="640" y="695" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#FFFFFF" fill-opacity="0.3">10 / 10</text>
+</svg>

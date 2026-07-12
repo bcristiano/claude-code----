@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="headerBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D4F8B" />
+      <stop offset="100%" stop-color="#0891B2" />
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M 0 1 L 8 5 L 0 9 Z" fill="#D0D8E0" />
+    </marker>
+  </defs>
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect x="0" y="0" width="1280" height="5" fill="url(#headerBar)" />
+  
+  <text x="60" y="60" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="32" font-weight="bold" fill="#0D4F8B">方案二：外墙正水面防水 — 优先执行</text>
+  <text x="60" y="90" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">从源头阻断水源 · 3步完成 · 耗时约1-2天</text>
+
+  
+  
+  <line x1="275" y1="280" x2="405" y2="280" stroke="#D0D8E0" stroke-width="2.5" marker-end="url(#arrow)" />
+  
+  <line x1="645" y1="280" x2="775" y2="280" stroke="#D0D8E0" stroke-width="2.5" marker-end="url(#arrow)" />
+
+  
+  <g id="step-1">
+    <circle cx="230" cy="280" r="45" fill="#0D4F8B" />
+    <circle cx="230" cy="280" r="38" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.3" />
+    <text x="230" y="275" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">1</text>
+    <text x="230" y="295" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" fill-opacity="0.8">STEP</text>
+
+    <line x1="230" y1="325" x2="230" y2="380" stroke="#0D4F8B" stroke-width="1.5" stroke-dasharray="4,4" stroke-opacity="0.4" />
+
+    <path fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1" d="M70,380 H390 A10,10 0 0 1 400,390 V660 A10,10 0 0 1 390,670 H70 A10,10 0 0 1 60,660 V390 A10,10 0 0 1 70,380 Z" />
+    <rect x="60" y="408" width="4" height="32" fill="#0D4F8B" />
+    <text x="84" y="424" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="18" font-weight="bold" fill="#1A1A2E">清洁外墙 + 修补裂缝</text>
+    <text x="84" y="446" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" font-weight="bold" fill="#0D4F8B">表面处理</text>
+    <line x1="84" y1="464" x2="376" y2="464" stroke="#F0F4F8" stroke-width="1.5" />
+    <text x="84" y="494" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 高压水枪冲洗污垢</text>
+    <text x="84" y="520" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 水泥砂浆填补裂缝</text>
+    <text x="84" y="546" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 确保基层平整坚实</text>
+    <text x="84" y="572" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 清除浮灰和油污</text>
+    <path fill="#0D4F8B" fill-opacity="0.08" d="M90,600 H168 A6,6 0 0 1 174,606 V620 A6,6 0 0 1 168,626 H90 A6,6 0 0 1 84,620 V606 A6,6 0 0 1 90,600 Z" />
+    <text x="129" y="618" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" font-weight="bold" fill="#0D4F8B">2-4 小时</text>
+  </g>
+
+  
+  <g id="step-2">
+    <circle cx="540" cy="280" r="45" fill="#0891B2" />
+    <circle cx="540" cy="280" r="38" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.3" />
+    <text x="540" y="275" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">2</text>
+    <text x="540" y="295" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" fill-opacity="0.8">STEP</text>
+
+    <line x1="540" y1="325" x2="540" y2="380" stroke="#0891B2" stroke-width="1.5" stroke-dasharray="4,4" stroke-opacity="0.4" />
+
+    <path fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1" d="M380,380 H700 A10,10 0 0 1 710,390 V660 A10,10 0 0 1 700,670 H380 A10,10 0 0 1 370,660 V390 A10,10 0 0 1 380,380 Z" />
+    <rect x="370" y="408" width="4" height="32" fill="#0891B2" />
+    <text x="394" y="424" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="18" font-weight="bold" fill="#1A1A2E">涂刷丙烯酸弹性涂料 ×2</text>
+    <text x="394" y="446" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" font-weight="bold" fill="#0891B2">防水施工</text>
+    <line x1="394" y1="464" x2="686" y2="464" stroke="#F0F4F8" stroke-width="1.5" />
+    <text x="394" y="494" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 开桶搅匀，辊涂施工</text>
+    <text x="394" y="520" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 第1遍干后涂第2遍</text>
+    <text x="394" y="546" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 间隔 4-6 小时</text>
+    <text x="394" y="572" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 覆盖率 3-5 m²/kg/遍</text>
+    <path fill="#0891B2" fill-opacity="0.08" d="M400,600 H478 A6,6 0 0 1 484,606 V620 A6,6 0 0 1 478,626 H400 A6,6 0 0 1 394,620 V606 A6,6 0 0 1 400,600 Z" />
+    <text x="439" y="618" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" font-weight="bold" fill="#0891B2">4-6 小时</text>
+  </g>
+
+  
+  <g id="step-3">
+    <circle cx="850" cy="280" r="45" fill="#E8612C" />
+    <circle cx="850" cy="280" r="38" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.3" />
+    <text x="850" y="275" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">3</text>
+    <text x="850" y="295" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" fill-opacity="0.8">STEP</text>
+
+    <line x1="850" y1="325" x2="850" y2="380" stroke="#E8612C" stroke-width="1.5" stroke-dasharray="4,4" stroke-opacity="0.4" />
+
+    <path fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1" d="M690,380 H1010 A10,10 0 0 1 1020,390 V660 A10,10 0 0 1 1010,670 H690 A10,10 0 0 1 680,660 V390 A10,10 0 0 1 690,380 Z" />
+    <rect x="680" y="408" width="4" height="32" fill="#E8612C" />
+    <text x="704" y="424" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="18" font-weight="bold" fill="#1A1A2E">墙角交接处加强处理</text>
+    <text x="704" y="446" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E8612C">关键收尾</text>
+    <line x1="704" y1="464" x2="996" y2="464" stroke="#F0F4F8" stroke-width="1.5" />
+    <text x="704" y="494" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 墙角向上翻起 20-30cm</text>
+    <text x="704" y="520" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 地面交接处多刷1遍</text>
+    <text x="704" y="546" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 形成整体密封防水</text>
+    <text x="704" y="572" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#1A1A2E">· 干固后检查无漏点</text>
+    <path fill="#E8612C" fill-opacity="0.08" d="M710,600 H788 A6,6 0 0 1 794,606 V620 A6,6 0 0 1 788,626 H710 A6,6 0 0 1 704,620 V606 A6,6 0 0 1 710,600 Z" />
+    <text x="749" y="618" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E8612C">24 小时</text>
+  </g>
+
+  
+  <rect x="260" y="0" width="760" height="42" rx="0" fill="none" />
+  <rect x="280" y="680" width="720" height="0" fill="none" />
+  <rect x="640" y="692" width="100" height="0" fill="none" />
+
+  
+  <rect x="60" y="315" width="0" height="0" fill="none" />
+
+  
+  <text x="1220" y="695" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">4 / 10</text>
+</svg>

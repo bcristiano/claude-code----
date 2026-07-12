@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="headerBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D4F8B"/>
+      <stop offset="100%" stop-color="#0891B2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="5" fill="url(#headerBar)"/>
+  <text x="60" y="58" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="32" font-weight="bold" fill="#0D4F8B">三大关键材料 · 用法详解</text>
+  <text x="60" y="86" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">用好这三样，防水工程就成功了一大半</text>
+
+  <!-- ===== Card 1: 渗透结晶防水涂料 ===== -->
+  <g id="card-crystalline">
+    <rect x="60" y="115" width="370" height="540" rx="12" fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1"/>
+    <rect x="60" y="115" width="370" height="80" rx="12" fill="#0D4F8B"/>
+    <rect x="60" y="183" width="370" height="12" fill="#0D4F8B"/>
+    <use data-icon="chunk-filled/shield-check" x="90" y="135" width="42" height="42" fill="#FFFFFF"/>
+    <text x="148" y="154" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">水泥基渗透结晶</text>
+    <text x="148" y="176" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.8">防水涂料</text>
+    <!-- Content -->
+    <use data-icon="chunk-filled/circle-number-1" x="90" y="230" width="28" height="28" fill="#0D4F8B"/>
+    <text x="130" y="250" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E">搅拌配比</text>
+    <text x="90" y="278" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">粉料:水 ≈ 1 : 0.3</text>
+    <text x="90" y="302" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">搅拌至无颗粒均匀糊状</text>
+
+    <use data-icon="chunk-filled/circle-number-2" x="90" y="340" width="28" height="28" fill="#0D4F8B"/>
+    <text x="130" y="360" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E">涂刷方式</text>
+    <text x="90" y="388" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">横竖交叉涂刷 2遍</text>
+    <text x="90" y="412" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">每遍间隔 2-4 小时</text>
+    <text x="90" y="436" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">总厚度 ≥ 1.5mm</text>
+
+    <use data-icon="chunk-filled/circle-number-3" x="90" y="474" width="28" height="28" fill="#0D4F8B"/>
+    <text x="130" y="494" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E">养护要求</text>
+    <text x="90" y="522" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#E8612C" font-weight="bold">完工后养护 48 小时</text>
+    <text x="90" y="546" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">保持涂层湿润</text>
+
+    <rect x="90" y="575" width="310" height="56" rx="8" fill="#F0F4F8"/>
+    <text x="105" y="598" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#1A1A2E">京东搜: <tspan fill="#0891B2">德高K11通用型</tspan></text>
+    <text x="105" y="618" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#1A1A2E">参考: <tspan fill="#0891B2">东方雨虹 PCC-501</tspan></text>
+  </g>
+
+  <!-- ===== Card 2: N型耐水腻子 ===== -->
+  <g id="card-putty">
+    <rect x="455" y="115" width="370" height="540" rx="12" fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1"/>
+    <rect x="455" y="115" width="370" height="80" rx="12" fill="#0891B2"/>
+    <rect x="455" y="183" width="370" height="12" fill="#0891B2"/>
+    <use data-icon="chunk-filled/layers" x="485" y="135" width="42" height="42" fill="#FFFFFF"/>
+    <text x="543" y="154" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">N型水泥基耐水腻子</text>
+    <text x="543" y="176" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.8">JG/T 298-2010 N型</text>
+
+    <use data-icon="chunk-filled/circle-number-1" x="485" y="230" width="28" height="28" fill="#0891B2"/>
+    <text x="525" y="250" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E">识别标准</text>
+    <text x="485" y="278" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#E8612C" font-weight="bold">认准包装「N型」标识</text>
+    <text x="485" y="302" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">无标注 = 普通腻子，不可用</text>
+    <text x="485" y="326" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">保质期仅12个月</text>
+
+    <use data-icon="chunk-filled/circle-number-2" x="485" y="364" width="28" height="28" fill="#0891B2"/>
+    <text x="525" y="384" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E">施工要诀</text>
+    <text x="485" y="412" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">粉料:水 ≈ 1 : 0.35 搅拌</text>
+    <text x="485" y="436" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">批刮 2遍，每遍 1-2mm</text>
+
+    <use data-icon="chunk-filled/circle-number-3" x="485" y="474" width="28" height="28" fill="#0891B2"/>
+    <text x="525" y="494" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E">干燥时间</text>
+    <text x="485" y="522" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#E8612C" font-weight="bold">每遍间隔 ≥ 24 小时</text>
+    <text x="485" y="546" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">完全干透再批下一遍</text>
+
+    <rect x="485" y="575" width="310" height="56" rx="8" fill="#F0F4F8"/>
+    <text x="500" y="598" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#1A1A2E">京东搜: <tspan fill="#0891B2">美巢 易呱平800JJ</tspan></text>
+    <text x="500" y="618" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#1A1A2E">参考: <tspan fill="#0891B2">德高内墙耐水腻子 N型</tspan></text>
+  </g>
+
+  <!-- ===== Card 3: 丙烯酸弹性防水涂料 ===== -->
+  <g id="card-acrylic">
+    <rect x="850" y="115" width="370" height="540" rx="12" fill="#FFFFFF" stroke="#D0D8E0" stroke-width="1"/>
+    <rect x="850" y="115" width="370" height="80" rx="12" fill="#E8612C"/>
+    <rect x="850" y="183" width="370" height="12" fill="#E8612C"/>
+    <use data-icon="chunk-filled/paint-roller" x="880" y="135" width="42" height="42" fill="#FFFFFF"/>
+    <text x="938" y="154" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">丙烯酸弹性防水涂料</text>
+    <text x="938" y="176" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.8">外墙专用</text>
+
+    <use data-icon="chunk-filled/circle-number-1" x="880" y="230" width="28" height="28" fill="#E8612C"/>
+    <text x="920" y="250" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E">施工准备</text>
+    <text x="880" y="278" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">开桶即用，无需加水</text>
+    <text x="880" y="302" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">基面清洁干燥无明水</text>
+    <text x="880" y="326" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">裂缝先用砂浆填补</text>
+
+    <use data-icon="chunk-filled/circle-number-2" x="880" y="364" width="28" height="28" fill="#E8612C"/>
+    <text x="920" y="384" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E">涂刷参数</text>
+    <text x="880" y="412" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">辊涂 2遍，覆盖率 3-5 m²/kg/遍</text>
+    <text x="880" y="436" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">间隔 4-6 小时</text>
+
+    <use data-icon="chunk-filled/circle-number-3" x="880" y="474" width="28" height="28" fill="#E8612C"/>
+    <text x="920" y="494" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E">注意要点</text>
+    <text x="880" y="522" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">墙角向上翻起 20-30cm</text>
+    <text x="880" y="546" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#5B6E7D">5°C以下禁止施工</text>
+
+    <rect x="880" y="575" width="310" height="56" rx="8" fill="#F0F4F8"/>
+    <text x="895" y="598" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#1A1A2E">京东搜: <tspan fill="#0891B2">东方雨虹 HCA121</tspan></text>
+    <text x="895" y="618" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="13" fill="#1A1A2E">参考: <tspan fill="#0891B2">科顺 丙烯酸防水涂料</tspan></text>
+  </g>
+
+  <!-- Page number -->
+  <text x="1220" y="695" text-anchor="end" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="11" fill="#5B6E7D">7 / 10</text>
+</svg>
