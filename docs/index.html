@@ -442,26 +442,15 @@ section {
 }
 
 /* ============ Love Letter ============ */
-#letter { gap:40px; }
-.letter-envelope { position:relative; width:clamp(280px, 80vw, 450px); cursor:pointer; }
-.letter-card {
-  background:linear-gradient(135deg, rgba(40,20,30,0.9), rgba(30,20,40,0.9));
-  border:1.5px solid rgba(212,165,165,0.3); border-radius:20px;
-  padding:clamp(24px, 5vw, 40px);
-  backdrop-filter:blur(12px);
-  box-shadow:0 20px 50px rgba(0,0,0,0.3);
-  transition:transform 0.6s cubic-bezier(0.25,0.1,0.25,1);
-  min-height:200px; display:flex; align-items:center; justify-content:center;
+#letter { gap:24px; padding-top:60px; padding-bottom:60px; }
+.letter-img-wrap {
+  width:100%; max-width:clamp(320px, 85vw, 500px);
+  border-radius:16px; overflow:hidden;
+  box-shadow:0 20px 60px rgba(0,0,0,0.5), 0 0 0 1.5px rgba(212,165,165,0.2);
 }
-.letter-icon { font-size:3rem; text-align:center; margin-bottom:16px; }
-.letter-prompt { text-align:center; color:#D4A5A5; letter-spacing:2px; font-size:0.9rem; }
-.letter-content {
-  color:#f0e6e6; font-size:clamp(0.9rem, 2.5vw, 1.05rem);
-  line-height:2; letter-spacing:1px; text-align:center;
-  display:none; animation:slideUp 0.8s ease forwards;
+.letter-img-wrap img {
+  width:100%; display:block;
 }
-.letter-content .highlight { color:#E84A5F; font-weight:bold; }
-.letter-signature { text-align:right; color:#C9A96E; margin-top:20px; font-style:italic; }
 
 /* ============ Responsive ============ */
 @media (max-width:480px) {
@@ -719,29 +708,11 @@ section {
 
 <!-- ============ Love Letter ============ -->
 <section id="letter">
-  <div class="letter-envelope" id="letter-envelope">
-    <div class="letter-card" id="letter-card">
-      <div>
-        <div class="letter-icon">💌</div>
-        <p class="letter-prompt">👆 点 击 打 开 信 件</p>
-      </div>
-    </div>
+  <h2 class="gallery-title">💌 给你的信</h2>
+  <div class="letter-img-wrap">
+    <img src="images/letter.png" alt="手写信">
   </div>
-  <div class="letter-content" id="letter-content">
-    <p>亲爱的<span class="highlight">宝贝</span>：</p>
-    <br>
-    <p>今天是你的生日，</p>
-    <p>也是世界上最重要的一天。</p>
-    <br>
-    <p>感谢你出现在我的生命里，</p>
-    <p>让每一个平凡的日子都变得<span class="highlight">闪闪发光</span>。</p>
-    <br>
-    <p>愿你永远被世界温柔以待，</p>
-    <p>愿你的每一个愿望都能实现。</p>
-    <br>
-    <p>—— <span class="highlight">永远爱你的我</span></p>
-    <p class="letter-signature">💋 你的专属</p>
-  </div>
+  <p style="color:rgba(212,165,165,0.4); font-size:0.75rem; letter-spacing:2px; margin-top:12px;">写给你的心里话</p>
 </section>
 
 </div><!-- /#main-content -->
@@ -1047,27 +1018,6 @@ function resetSlideshowTimer() {
 
 // Start auto-advance
 resetSlideshowTimer();
-
-// ==================== Love Letter ====================
-let letterFlipped = false;
-document.getElementById('letter-envelope').addEventListener('click', () => {
-  const card = document.getElementById('letter-card');
-  const content = document.getElementById('letter-content');
-  if (!letterFlipped) {
-    card.style.opacity = '0';
-    card.style.transform = 'scale(0.95)';
-    setTimeout(() => {
-      card.style.display = 'none';
-      content.style.display = 'block';
-    }, 400);
-  } else {
-    card.style.display = 'flex';
-    card.style.opacity = '1';
-    card.style.transform = 'scale(1)';
-    content.style.display = 'none';
-  }
-  letterFlipped = !letterFlipped;
-});
 
 // ==================== Music ====================
 const bgMusic = document.getElementById('bg-music');
